@@ -1,0 +1,228 @@
+[2020-12-10 17:47:17] This is codeql database create .\databases\bof --language=cpp --command=gcc -o bof bof.c --source-root=./apps/bof
+[2020-12-10 17:47:17] Log file was started late.
+[2020-12-10 17:47:17] [PROGRESS] database create> Running command [gcc, -o, bof, bof.c] in C:\Users\a3sc\github\codeql\apps\bof.
+[2020-12-10 17:47:17] Running plumbing command: codeql database trace-command --working-dir=C:\Users\a3sc\github\codeql\apps\bof -- C:\Users\a3sc\github\codeql\databases\bof gcc -o bof bof.c
+[2020-12-10 17:47:17] [PROGRESS] database trace-command> C:\Users\a3sc\github\codeql\databases\bof: Running in C:\Users\a3sc\github\codeql\apps\bof: [gcc, -o, bof, bof.c]
+[2020-12-10 17:47:18] Setting up tracing from specification at C:\Users\a3sc\github\codeql\codeql-home\cpp\tools\win64\compiler-tracing.spec.
+[2020-12-10 17:47:22] Plumbing command codeql database trace-command completed.
+[2020-12-10 17:47:22] [PROGRESS] database create> Finalizing database at C:\Users\a3sc\github\codeql\databases\bof.
+[2020-12-10 17:47:22] Running plumbing command: codeql database finalize --mode=normal -- C:\Users\a3sc\github\codeql\databases\bof
+[2020-12-10 17:47:22] [PROGRESS] database finalize> Running TRAP import for CodeQL database at C:\Users\a3sc\github\codeql\databases\bof...
+[2020-12-10 17:47:22] Running plumbing command: codeql dataset import --dbscheme=C:\Users\a3sc\github\codeql\codeql-home\cpp\semmlecode.cpp.dbscheme -- C:\Users\a3sc\github\codeql\databases\bof\db-cpp C:\Users\a3sc\github\codeql\databases\bof\trap\cpp
+[2020-12-10 17:47:22] Clearing disk cache since the version file C:\Users\a3sc\github\codeql\databases\bof\db-cpp\default\cache\version does not exist
+[2020-12-10 17:47:22] Tuple pool not found. Clearing relations with cached strings
+[2020-12-10 17:47:22] Trimming disk cache at C:\Users\a3sc\github\codeql\databases\bof\db-cpp\default\cache in mode brutal.
+[2020-12-10 17:47:22] Sequence stamp origin is -6649339334460980107
+[2020-12-10 17:47:22] Stopped the world to hard-clear memory at sequence stamp o+0
+[2020-12-10 17:47:22] Starting the world again
+[2020-12-10 17:47:22] Stopped the world to quickly trim disk at sequence stamp o+1
+[2020-12-10 17:47:22] Starting the world again
+[2020-12-10 17:47:22] Stopped the world to zealously trim disk at sequence stamp o+2
+[2020-12-10 17:47:22] Starting the world again
+[2020-12-10 17:47:22] Trimming completed (31ms): Purged everything.
+[2020-12-10 17:47:23] Scanning for files in C:\Users\a3sc\github\codeql\databases\bof\trap\cpp
+[2020-12-10 17:47:23] Grouping TRAPs by link target
+[2020-12-10 17:47:23] Scanning cpp_predefined.d6444f2f.trap (bof.c.2bb6b8ad_0.trap.tar.br) (1 of 37)
+[2020-12-10 17:47:23] Scanning _mingw_mac.h.26a51549.trap (bof.c.2bb6b8ad_0.trap.tar.br) (2 of 37)
+[2020-12-10 17:47:23] Scanning _mingw_secapi.h.3084af0e.trap (bof.c.2bb6b8ad_0.trap.tar.br) (3 of 37)
+[2020-12-10 17:47:23] Scanning _mingw_directx.h.aa868899.trap (bof.c.2bb6b8ad_0.trap.tar.br) (4 of 37)
+[2020-12-10 17:47:23] Scanning _mingw_ddk.h.aa868899.trap (bof.c.2bb6b8ad_0.trap.tar.br) (5 of 37)
+[2020-12-10 17:47:23] Scanning _mingw.h.529f2503.trap (bof.c.2bb6b8ad_0.trap.tar.br) (6 of 37)
+[2020-12-10 17:47:23] Scanning vadefs.h.50e1b131.trap (bof.c.2bb6b8ad_0.trap.tar.br) (7 of 37)
+[2020-12-10 17:47:23] Scanning _mingw.h.11c70794.trap (bof.c.2bb6b8ad_0.trap.tar.br) (8 of 37)
+[2020-12-10 17:47:23] Scanning crtdefs.h.49c6de1d.trap (bof.c.2bb6b8ad_0.trap.tar.br) (9 of 37)
+[2020-12-10 17:47:23] Scanning _mingw_print_push.h.0a578272.trap (bof.c.2bb6b8ad_0.trap.tar.br) (10 of 37)
+[2020-12-10 17:47:23] Scanning _mingw_off_t.h.0d765561.trap (bof.c.2bb6b8ad_0.trap.tar.br) (11 of 37)
+[2020-12-10 17:47:23] Scanning swprintf.inl.899e78e6.trap (bof.c.2bb6b8ad_0.trap.tar.br) (12 of 37)
+[2020-12-10 17:47:23] Scanning stdio.h.27c28de8.trap (bof.c.2bb6b8ad_0.trap.tar.br) (13 of 37)
+[2020-12-10 17:47:23] Scanning stdio_s.h.37e8ae79.trap (bof.c.2bb6b8ad_0.trap.tar.br) (14 of 37)
+[2020-12-10 17:47:23] Scanning _mingw_print_pop.h.643a9667.trap (bof.c.2bb6b8ad_0.trap.tar.br) (15 of 37)
+[2020-12-10 17:47:23] Scanning stdio.h.58d2e7e6.trap (bof.c.2bb6b8ad_0.trap.tar.br) (16 of 37)
+[2020-12-10 17:47:23] Scanning limits.h.7f585899.trap (bof.c.2bb6b8ad_0.trap.tar.br) (17 of 37)
+[2020-12-10 17:47:23] Scanning syslimits.h.5e887089.trap (bof.c.2bb6b8ad_0.trap.tar.br) (18 of 37)
+[2020-12-10 17:47:23] Scanning limits.h.78739756.trap (bof.c.2bb6b8ad_0.trap.tar.br) (19 of 37)
+[2020-12-10 17:47:23] Scanning stdlib.h.36e8feaf.trap (bof.c.2bb6b8ad_0.trap.tar.br) (20 of 37)
+[2020-12-10 17:47:23] Scanning stdlib_s.h.29e004da.trap (bof.c.2bb6b8ad_0.trap.tar.br) (21 of 37)
+[2020-12-10 17:47:23] Scanning malloc.h.b7f8971f.trap (bof.c.2bb6b8ad_0.trap.tar.br) (22 of 37)
+[2020-12-10 17:47:23] Scanning stdlib.h.8648cbac.trap (bof.c.2bb6b8ad_0.trap.tar.br) (23 of 37)
+[2020-12-10 17:47:23] Scanning string.h.694f90bb.trap (bof.c.2bb6b8ad_0.trap.tar.br) (24 of 37)
+[2020-12-10 17:47:23] Scanning string_s.h.ead278a3.trap (bof.c.2bb6b8ad_0.trap.tar.br) (25 of 37)
+[2020-12-10 17:47:23] Scanning string.h.cd98e1d1.trap (bof.c.2bb6b8ad_0.trap.tar.br) (26 of 37)
+[2020-12-10 17:47:23] Scanning io.h.4ae6f7a7.trap (bof.c.2bb6b8ad_0.trap.tar.br) (27 of 37)
+[2020-12-10 17:47:23] Scanning corecrt_startup.h.4ac5da03.trap (bof.c.2bb6b8ad_0.trap.tar.br) (28 of 37)
+[2020-12-10 17:47:23] Scanning types.h.bba68c7a.trap (bof.c.2bb6b8ad_0.trap.tar.br) (29 of 37)
+[2020-12-10 17:47:23] Scanning process.h.64d17058.trap (bof.c.2bb6b8ad_0.trap.tar.br) (30 of 37)
+[2020-12-10 17:47:23] Scanning getopt.h.6bf6a95e.trap (bof.c.2bb6b8ad_0.trap.tar.br) (31 of 37)
+[2020-12-10 17:47:23] Scanning pthread_unistd.h.aca1f752.trap (bof.c.2bb6b8ad_0.trap.tar.br) (32 of 37)
+[2020-12-10 17:47:23] Scanning unistd.h.7a12c560.trap (bof.c.2bb6b8ad_0.trap.tar.br) (33 of 37)
+[2020-12-10 17:47:23] Scanning bof.c.2bb6b8ad.trap (bof.c.2bb6b8ad_0.trap.tar.br) (34 of 37)
+[2020-12-10 17:47:23] Scanning 29786642_0.trap.br (35 of 37)
+[2020-12-10 17:47:23] Scanning bof.exe.trap.br (36 of 37)
+[2020-12-10 17:47:23] Scanning sourceLocationPrefix.trap.gz (37 of 37)
+[2020-12-10 17:47:23] Assembling bof.exe.link with 1 files (1 of 2)
+[2020-12-10 17:47:23] Assembling no link target with 36 files (2 of 2)
+[2020-12-10 17:47:23] Importing cpp_predefined.d6444f2f.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (1 of 37)
+[2020-12-10 17:47:24] Importing _mingw_mac.h.26a51549.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (2 of 37)
+[2020-12-10 17:47:24] Importing _mingw_secapi.h.3084af0e.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (3 of 37)
+[2020-12-10 17:47:24] Importing _mingw_directx.h.aa868899.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (4 of 37)
+[2020-12-10 17:47:24] Importing _mingw_ddk.h.aa868899.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (5 of 37)
+[2020-12-10 17:47:24] Importing _mingw.h.529f2503.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (6 of 37)
+[2020-12-10 17:47:24] Importing vadefs.h.50e1b131.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (7 of 37)
+[2020-12-10 17:47:24] Importing _mingw.h.11c70794.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (8 of 37)
+[2020-12-10 17:47:24] Importing crtdefs.h.49c6de1d.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (9 of 37)
+[2020-12-10 17:47:24] Importing _mingw_print_push.h.0a578272.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (10 of 37)
+[2020-12-10 17:47:24] Importing _mingw_off_t.h.0d765561.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (11 of 37)
+[2020-12-10 17:47:24] Importing swprintf.inl.899e78e6.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (12 of 37)
+[2020-12-10 17:47:24] Importing stdio.h.27c28de8.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (13 of 37)
+[2020-12-10 17:47:24] Importing stdio_s.h.37e8ae79.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (14 of 37)
+[2020-12-10 17:47:24] Importing _mingw_print_pop.h.643a9667.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (15 of 37)
+[2020-12-10 17:47:24] Importing stdio.h.58d2e7e6.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (16 of 37)
+[2020-12-10 17:47:24] Importing limits.h.7f585899.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (17 of 37)
+[2020-12-10 17:47:24] Importing syslimits.h.5e887089.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (18 of 37)
+[2020-12-10 17:47:24] Importing limits.h.78739756.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (19 of 37)
+[2020-12-10 17:47:24] Importing stdlib.h.36e8feaf.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (20 of 37)
+[2020-12-10 17:47:24] Importing stdlib_s.h.29e004da.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (21 of 37)
+[2020-12-10 17:47:24] Importing malloc.h.b7f8971f.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (22 of 37)
+[2020-12-10 17:47:24] Importing stdlib.h.8648cbac.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (23 of 37)
+[2020-12-10 17:47:24] Importing string.h.694f90bb.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (24 of 37)
+[2020-12-10 17:47:24] Importing string_s.h.ead278a3.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (25 of 37)
+[2020-12-10 17:47:24] Importing string.h.cd98e1d1.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (26 of 37)
+[2020-12-10 17:47:24] Importing io.h.4ae6f7a7.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (27 of 37)
+[2020-12-10 17:47:24] Importing corecrt_startup.h.4ac5da03.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (28 of 37)
+[2020-12-10 17:47:24] Importing types.h.bba68c7a.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (29 of 37)
+[2020-12-10 17:47:24] Importing process.h.64d17058.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (30 of 37)
+[2020-12-10 17:47:24] Importing getopt.h.6bf6a95e.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (31 of 37)
+[2020-12-10 17:47:25] Importing pthread_unistd.h.aca1f752.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (32 of 37)
+[2020-12-10 17:47:25] Importing unistd.h.7a12c560.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (33 of 37)
+[2020-12-10 17:47:25] Importing bof.c.2bb6b8ad.trap (bof.c.2bb6b8ad_0.trap.tar.br) for no link target (34 of 37)
+[2020-12-10 17:47:25] Importing 29786642_0.trap.br for no link target (35 of 37)
+[2020-12-10 17:47:25] Importing bof.exe.trap.br for bof.exe.link (36 of 37)
+[2020-12-10 17:47:25] Importing sourceLocationPrefix.trap.gz for no link target (37 of 37)
+[2020-12-10 17:47:25] Merging 1 fragment for builtintypes.
+[2020-12-10 17:47:25] Merging 1 fragment for unspecifiedtype.
+[2020-12-10 17:47:25] Merging 1 fragment for files.
+[2020-12-10 17:47:25] Merging 1 fragment for locations_default.
+[2020-12-10 17:47:25] Merging 1 fragment for link_targets.
+[2020-12-10 17:47:25] Merging 1 fragment for locations_stmt.
+[2020-12-10 17:47:25] Merging 1 fragment for locations_expr.
+[2020-12-10 17:47:25] Merging 1 fragment for usertypes.
+[2020-12-10 17:47:25] Merging 1 fragment for link_parent.
+[2020-12-10 17:47:25] Merging 1 fragment for usertypesize.
+[2020-12-10 17:47:26] Merging 1 fragment for is_pod_class.
+[2020-12-10 17:47:26] Merging 1 fragment for is_standard_layout_class.
+[2020-12-10 17:47:26] Merging 1 fragment for is_complete.
+[2020-12-10 17:47:26] Merging 1 fragment for membervariables.
+[2020-12-10 17:47:26] Merging 1 fragment for fieldoffsets.
+[2020-12-10 17:47:26] Merging 1 fragment for var_decls.
+[2020-12-10 17:47:26] Merging 1 fragment for var_def.
+[2020-12-10 17:47:26] Merging 1 fragment for derivedtypes.
+[2020-12-10 17:47:26] Merging 1 fragment for pointerishsize.
+[2020-12-10 17:47:26] Merging 1 fragment for member.
+[2020-12-10 17:47:26] Merging 1 fragment for namespaces.
+[2020-12-10 17:47:26] Merging 1 fragment for specialnamequalifyingelements.
+[2020-12-10 17:47:26] Merging 1 fragment for mangled_name.
+[2020-12-10 17:47:26] Merging 1 fragment for specifiers.
+[2020-12-10 17:47:26] Merging 1 fragment for numlines.
+[2020-12-10 17:47:26] Merging 1 fragment for preprocdirects.
+[2020-12-10 17:47:26] Merging 1 fragment for preproctext.
+[2020-12-10 17:47:26] Merging 1 fragment for preproctrue.
+[2020-12-10 17:47:26] Merging 1 fragment for preprocfalse.
+[2020-12-10 17:47:26] Merging 1 fragment for macroinvocations.
+[2020-12-10 17:47:26] Merging 1 fragment for comments.
+[2020-12-10 17:47:26] Merging 1 fragment for commentbinding.
+[2020-12-10 17:47:26] Merging 1 fragment for containerparent.
+[2020-12-10 17:47:26] Merging 1 fragment for folders.
+[2020-12-10 17:47:26] Merging 1 fragment for preprocpair.
+[2020-12-10 17:47:26] Merging 1 fragment for includes.
+[2020-12-10 17:47:26] Merging 1 fragment for type_mentions.
+[2020-12-10 17:47:26] Merging 1 fragment for arraysizes.
+[2020-12-10 17:47:26] Merging 1 fragment for typedefbase.
+[2020-12-10 17:47:26] Merging 1 fragment for type_decls.
+[2020-12-10 17:47:26] Merging 1 fragment for type_decl_top.
+[2020-12-10 17:47:26] Merging 1 fragment for functions.
+[2020-12-10 17:47:26] Merging 1 fragment for function_return_type.
+[2020-12-10 17:47:26] Merging 1 fragment for attributes.
+[2020-12-10 17:47:26] Merging 1 fragment for typeattributes.
+[2020-12-10 17:47:26] Merging 1 fragment for funcattributes.
+[2020-12-10 17:47:26] Merging 1 fragment for fun_decls.
+[2020-12-10 17:47:26] Merging 1 fragment for fun_def.
+[2020-12-10 17:47:26] Merging 1 fragment for fun_decl_specifiers.
+[2020-12-10 17:47:26] Merging 1 fragment for stmts.
+[2020-12-10 17:47:26] Merging 1 fragment for compgenerated.
+[2020-12-10 17:47:26] Merging 1 fragment for stmtparents.
+[2020-12-10 17:47:26] Merging 1 fragment for blockscope.
+[2020-12-10 17:47:26] Merging 1 fragment for function_entry_point.
+[2020-12-10 17:47:26] Merging 1 fragment for macro_argument_unexpanded.
+[2020-12-10 17:47:26] Merging 1 fragment for macro_argument_expanded.
+[2020-12-10 17:47:26] Merging 1 fragment for macroparent.
+[2020-12-10 17:47:26] Merging 1 fragment for typespecifiers.
+[2020-12-10 17:47:26] Merging 1 fragment for funspecifiers.
+[2020-12-10 17:47:26] Merging 1 fragment for type_def.
+[2020-12-10 17:47:26] Merging 1 fragment for values.
+[2020-12-10 17:47:26] Merging 1 fragment for valuetext.
+[2020-12-10 17:47:26] Merging 1 fragment for exprs.
+[2020-12-10 17:47:26] Merging 1 fragment for expr_types.
+[2020-12-10 17:47:26] Merging 1 fragment for valuebind.
+[2020-12-10 17:47:26] Merging 1 fragment for varspecifiers.
+[2020-12-10 17:47:26] Merging 1 fragment for attribute_arg_value.
+[2020-12-10 17:47:26] Merging 1 fragment for attribute_args.
+[2020-12-10 17:47:26] Merging 1 fragment for params.
+[2020-12-10 17:47:26] Merging 1 fragment for param_decl_bind.
+[2020-12-10 17:47:26] Merging 1 fragment for localvariables.
+[2020-12-10 17:47:26] Merging 1 fragment for stmt_decl_bind.
+[2020-12-10 17:47:27] Merging 1 fragment for stmt_decl_entry_bind.
+[2020-12-10 17:47:27] Merging 1 fragment for exprparents.
+[2020-12-10 17:47:27] Merging 1 fragment for routinetypes.
+[2020-12-10 17:47:27] Merging 1 fragment for routinetypeargs.
+[2020-12-10 17:47:27] Merging 1 fragment for funbind.
+[2020-12-10 17:47:27] Merging 1 fragment for expr_isload.
+[2020-12-10 17:47:27] Merging 1 fragment for exprconv.
+[2020-12-10 17:47:27] Merging 1 fragment for varbind.
+[2020-12-10 17:47:27] Merging 1 fragment for iscall.
+[2020-12-10 17:47:27] Merging 1 fragment for macrolocationbind.
+[2020-12-10 17:47:27] Merging 1 fragment for affectedbymacroexpansion.
+[2020-12-10 17:47:27] Merging 1 fragment for inmacroexpansion.
+[2020-12-10 17:47:27] Merging 1 fragment for if_then.
+[2020-12-10 17:47:27] Merging 1 fragment for globalvariables.
+[2020-12-10 17:47:27] Merging 1 fragment for var_decl_specifiers.
+[2020-12-10 17:47:27] Merging 1 fragment for conversionkinds.
+[2020-12-10 17:47:27] Merging 1 fragment for expr_ancestor.
+[2020-12-10 17:47:27] Merging 1 fragment for expr_cond_guard.
+[2020-12-10 17:47:27] Merging 1 fragment for expr_cond_true.
+[2020-12-10 17:47:27] Merging 1 fragment for expr_cond_false.
+[2020-12-10 17:47:27] Merging 1 fragment for fileannotations.
+[2020-12-10 17:47:27] Merging 1 fragment for if_else.
+[2020-12-10 17:47:27] Merging 1 fragment for compilations.
+[2020-12-10 17:47:27] Merging 1 fragment for compilation_args.
+[2020-12-10 17:47:27] Merging 1 fragment for compilation_compiling_files.
+[2020-12-10 17:47:27] Merging 1 fragment for compilation_time.
+[2020-12-10 17:47:27] Merging 1 fragment for compilation_finished.
+[2020-12-10 17:47:27] Merging 1 fragment for sourceLocationPrefix.
+[2020-12-10 17:47:27] Saving string and id pools to disk.
+[2020-12-10 17:47:27] Finished importing trap files.
+[2020-12-10 17:47:27] Stopped the world to close the cache at sequence stamp o+3
+[2020-12-10 17:47:27] The disk cache is freshly trimmed; leave it be.
+[2020-12-10 17:47:27] Starting the world again
+[2020-12-10 17:47:27] Plumbing command codeql dataset import completed.
+[2020-12-10 17:47:27] [PROGRESS] database finalize> TRAP import complete (5.3s).
+[2020-12-10 17:47:27] Running plumbing command: codeql database cleanup --mode=normal -- C:\Users\a3sc\github\codeql\databases\bof
+[2020-12-10 17:47:27] [PROGRESS] database cleanup> Cleaning up existing TRAP files after import...
+[2020-12-10 17:47:28] [PROGRESS] database cleanup> TRAP files cleaned up (31ms).
+[2020-12-10 17:47:28] [PROGRESS] database cleanup> Cleaning up scratch directory...
+[2020-12-10 17:47:28] [PROGRESS] database cleanup> Scratch directory cleaned up (0ms).
+[2020-12-10 17:47:28] Running plumbing command: codeql dataset cleanup --mode=normal -- C:\Users\a3sc\github\codeql\databases\bof\db-cpp
+[2020-12-10 17:47:28] [PROGRESS] dataset cleanup> Cleaning up dataset in C:\Users\a3sc\github\codeql\databases\bof\db-cpp.
+[2020-12-10 17:47:28] Trimming disk cache at C:\Users\a3sc\github\codeql\databases\bof\db-cpp\default\cache in mode normal.
+[2020-12-10 17:47:28] Sequence stamp origin is -6649339312262731548
+[2020-12-10 17:47:28] Stopped the world to zealously trim disk at sequence stamp o+0
+[2020-12-10 17:47:28] Starting the world again
+[2020-12-10 17:47:28] Trimming completed (0ms): Trimmed disposable data from cache.
+[2020-12-10 17:47:28] Stopped the world to close the cache at sequence stamp o+1
+[2020-12-10 17:47:28] The disk cache is freshly trimmed; leave it be.
+[2020-12-10 17:47:28] Starting the world again
+[2020-12-10 17:47:28] [PROGRESS] dataset cleanup> Trimmed disposable data from cache.
+[2020-12-10 17:47:28] Plumbing command codeql dataset cleanup completed.
+[2020-12-10 17:47:28] Plumbing command codeql database cleanup completed with status 0.
+[2020-12-10 17:47:28] Plumbing command codeql database finalize completed with status 0.
+[2020-12-10 17:47:28] [PROGRESS] database create> Successfully created database at C:\Users\a3sc\github\codeql\databases\bof.
+[2020-12-10 17:47:28] Terminating normally.

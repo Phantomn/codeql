@@ -1,0 +1,2 @@
+"Use of dangerous function","Use of a standard library function that does not guard against buffer overflow.","error","gets does not guard against buffer overflow","/bof.c","10","5","10","8"
+"Unbounded write","Buffer write operations that do not control the length of data written may overflow.","error","This 'call to gets' with input from [[""call to gets""|""relative:///bof.c:10:5:10:8""]] may overflow the destination.","/bof.c","10","5","10","8"

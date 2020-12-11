@@ -1,0 +1,883 @@
+[T 17:47:18 6956] Reading configuration file C:\Users\a3sc\github\codeql\databases\bof\working\tracing\compiler-tracing6593620238546262519.spec...
+[T 17:47:18 6956] Reading configuration file C:\Users\a3sc\github\codeql\databases\bof\working\tracing\compiler-tracing6593620238546262519.spec...
+[T 17:47:18 6956] Compilers file as of 2020-12-10 17:47:18
+[T 17:47:18 6956] Compiler pattern: **/clang-cl.exe
+[T 17:47:18 6956] Replace intercepted call: 0
+[T 17:47:18 6956] Extractor: C:\Users\a3sc\github\codeql\codeql-home\cpp\tools\win64/extractor.exe
+[T 17:47:18 6956] Prepend[0] "--mimic"
+[T 17:47:18 6956] Prepend[1] ""${compiler}""
+[T 17:47:18 6956] Compilers file as of 2020-12-10 17:47:18
+[T 17:47:18 6956] Compiler pattern: **/cl.exe
+[T 17:47:18 6956] Replace intercepted call: 0
+[T 17:47:18 6956] Extractor: C:\Users\a3sc\github\codeql\codeql-home\cpp\tools\win64/extractor.exe
+[T 17:47:18 6956] Prepend[0] "--mimic"
+[T 17:47:18 6956] Prepend[1] ""${compiler}""
+[T 17:47:18 6956] Compilers file as of 2020-12-10 17:47:18
+[T 17:47:18 6956] Compiler pattern: **/lld-link.exe
+[T 17:47:18 6956] Replace intercepted call: 0
+[T 17:47:18 6956] Extractor: C:\Users\a3sc\github\codeql\codeql-home\cpp\tools\win64/extractor.exe
+[T 17:47:18 6956] Prepend[0] "--ms-linker"
+[T 17:47:18 6956] Prepend[1] "--semmle-linker-executable"
+[T 17:47:18 6956] Prepend[2] ""${compiler}""
+[T 17:47:18 6956] Compilers file as of 2020-12-10 17:47:18
+[T 17:47:18 6956] Compiler pattern: **/link.exe
+[T 17:47:18 6956] Replace intercepted call: 0
+[T 17:47:18 6956] Extractor: C:\Users\a3sc\github\codeql\codeql-home\cpp\tools\win64/extractor.exe
+[T 17:47:18 6956] Prepend[0] "--ms-linker"
+[T 17:47:18 6956] Prepend[1] "--semmle-linker-executable"
+[T 17:47:18 6956] Prepend[2] ""${compiler}""
+[T 17:47:18 6956] Compilers file as of 2020-12-10 17:47:18
+[T 17:47:18 6956] Compiler pattern: **/collect2.exe
+[T 17:47:18 6956] Replace intercepted call: 0
+[T 17:47:18 6956] Extractor: C:\Users\a3sc\github\codeql\codeql-home\cpp\tools\win64/extractor.exe
+[T 17:47:18 6956] Prepend[0] "--linker"
+[T 17:47:18 6956] Prepend[1] "--semmle-linker-executable"
+[T 17:47:18 6956] Prepend[2] ""${compiler}""
+[T 17:47:18 6956] Compilers file as of 2020-12-10 17:47:18
+[T 17:47:18 6956] Compiler pattern: **/*-ld*.exe
+[T 17:47:18 6956] Replace intercepted call: 0
+[T 17:47:18 6956] Extractor: C:\Users\a3sc\github\codeql\codeql-home\cpp\tools\win64/extractor.exe
+[T 17:47:18 6956] Prepend[0] "--linker"
+[T 17:47:18 6956] Prepend[1] "--semmle-linker-executable"
+[T 17:47:18 6956] Prepend[2] ""${compiler}""
+[T 17:47:18 6956] Compilers file as of 2020-12-10 17:47:18
+[T 17:47:18 6956] Compiler pattern: **/ld*.exe
+[T 17:47:18 6956] Replace intercepted call: 0
+[T 17:47:18 6956] Extractor: C:\Users\a3sc\github\codeql\codeql-home\cpp\tools\win64/extractor.exe
+[T 17:47:18 6956] Prepend[0] "--linker"
+[T 17:47:18 6956] Prepend[1] "--semmle-linker-executable"
+[T 17:47:18 6956] Prepend[2] ""${compiler}""
+[T 17:47:18 6956] Compilers file as of 2020-12-10 17:47:18
+[T 17:47:18 6956] Compiler pattern: **/cx51.exe
+[T 17:47:18 6956] Replace intercepted call: 0
+[T 17:47:18 6956] Extractor: C:\Users\a3sc\github\codeql\codeql-home\cpp\tools\win64/extractor.exe
+[T 17:47:18 6956] Prepend[0] "--mimic"
+[T 17:47:18 6956] Prepend[1] ""${compiler}""
+[T 17:47:18 6956] Compilers file as of 2020-12-10 17:47:18
+[T 17:47:18 6956] Compiler pattern: **/c51.exe
+[T 17:47:18 6956] Replace intercepted call: 0
+[T 17:47:18 6956] Extractor: C:\Users\a3sc\github\codeql\codeql-home\cpp\tools\win64/extractor.exe
+[T 17:47:18 6956] Prepend[0] "--mimic"
+[T 17:47:18 6956] Prepend[1] ""${compiler}""
+[T 17:47:18 6956] Compilers file as of 2020-12-10 17:47:18
+[T 17:47:18 6956] Compiler pattern: **/*-g++.exe
+[T 17:47:18 6956] Replace intercepted call: 0
+[T 17:47:18 6956] Extractor: C:\Users\a3sc\github\codeql\codeql-home\cpp\tools\win64/extractor.exe
+[T 17:47:18 6956] Prepend[0] "--mimic"
+[T 17:47:18 6956] Prepend[1] ""${compiler}""
+[T 17:47:18 6956] Compilers file as of 2020-12-10 17:47:18
+[T 17:47:18 6956] Compiler pattern: **/*-gcc.exe
+[T 17:47:18 6956] Replace intercepted call: 0
+[T 17:47:18 6956] Extractor: C:\Users\a3sc\github\codeql\codeql-home\cpp\tools\win64/extractor.exe
+[T 17:47:18 6956] Prepend[0] "--mimic"
+[T 17:47:18 6956] Prepend[1] ""${compiler}""
+[T 17:47:18 6956] Compilers file as of 2020-12-10 17:47:18
+[T 17:47:18 6956] Compiler pattern: **/*-clang.exe
+[T 17:47:18 6956] Replace intercepted call: 0
+[T 17:47:18 6956] Extractor: C:\Users\a3sc\github\codeql\codeql-home\cpp\tools\win64/extractor.exe
+[T 17:47:18 6956] Prepend[0] "--mimic"
+[T 17:47:18 6956] Prepend[1] ""${compiler}""
+[T 17:47:18 6956] Compilers file as of 2020-12-10 17:47:18
+[T 17:47:18 6956] Compiler pattern: **/armcc.exe
+[T 17:47:18 6956] Replace intercepted call: 0
+[T 17:47:18 6956] Extractor: C:\Users\a3sc\github\codeql\codeql-home\cpp\tools\win64/extractor.exe
+[T 17:47:18 6956] Prepend[0] "--mimic"
+[T 17:47:18 6956] Prepend[1] ""${compiler}""
+[T 17:47:18 6956] Compilers file as of 2020-12-10 17:47:18
+[T 17:47:18 6956] Compiler pattern: **/g++*.exe
+[T 17:47:18 6956] Replace intercepted call: 0
+[T 17:47:18 6956] Extractor: C:\Users\a3sc\github\codeql\codeql-home\cpp\tools\win64/extractor.exe
+[T 17:47:18 6956] Prepend[0] "--mimic"
+[T 17:47:18 6956] Prepend[1] ""${compiler}""
+[T 17:47:18 6956] Compilers file as of 2020-12-10 17:47:18
+[T 17:47:18 6956] Compiler pattern: **/gcc*.exe
+[T 17:47:18 6956] Replace intercepted call: 0
+[T 17:47:18 6956] Extractor: C:\Users\a3sc\github\codeql\codeql-home\cpp\tools\win64/extractor.exe
+[T 17:47:18 6956] Prepend[0] "--mimic"
+[T 17:47:18 6956] Prepend[1] ""${compiler}""
+[T 17:47:18 6956] Compilers file as of 2020-12-10 17:47:18
+[T 17:47:18 6956] Compiler pattern: **/clang*.exe
+[T 17:47:18 6956] Replace intercepted call: 0
+[T 17:47:18 6956] Extractor: C:\Users\a3sc\github\codeql\codeql-home\cpp\tools\win64/extractor.exe
+[T 17:47:18 6956] Prepend[0] "--mimic"
+[T 17:47:18 6956] Prepend[1] ""${compiler}""
+[T 17:47:18 6956] Tracing resumed...
+[T 17:47:18 6956] ==== Candidate to intercept: C:\Users\a3sc\github\codeql\codeql-home\tools\win64\runner.exe ====
+[T 17:47:18 6956] Found LdrLoadDll (64-bit) at 00007FFDD5704380
+[T 17:47:18 18124] Reading configuration file C:\Users\a3sc\github\codeql\databases\bof\working\tracing\compiler-tracing6593620238546262519.spec...
+[T 17:47:18 18124] Tracing resumed...
+[T 17:47:18 18124] ==== Candidate to intercept: C:\Windows\System32\cmd.exe ====
+[T 17:47:18 18124] Found LdrLoadDll (64-bit) at 00007FFDD5704380
+[T 17:47:18 7844] Reading configuration file C:\Users\a3sc\github\codeql\databases\bof\working\tracing\compiler-tracing6593620238546262519.spec...
+[T 17:47:18 7844] Tracing resumed...
+[T 17:47:18 7844] ==== Candidate to intercept: C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe ====
+[T 17:47:18 7844] === Intercepted call to C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe === 
+[T 17:47:18 7844] Found LdrLoadDll (64-bit) at 00007FFDD5704380
+[T 17:47:18 7844] Found LdrLoadDll (64-bit) at 00007FFDD5704380
+[E 17:47:19 8700] CodeQL C/C++ Extractor 1.26.0-SNAPSHOT
+[E 17:47:19 8700] Current directory: C:\Users\a3sc\github\codeql\apps\bof
+[E 17:47:19 8700] Command: C:\Users\a3sc\github\codeql\codeql-home\cpp\tools\win64/extractor.exe --mimic "C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe" -o bof bof.c
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(_Float32)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(_Float32x)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(_Float64)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(_Float64x)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128,  _Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(_Float32,  _Float32)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(_Float32x,  _Float32x)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(_Float64,  _Float64)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(_Float64x,  _Float64x)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128,  _Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(_Float32)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(_Float32x)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(_Float64)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(_Float64x)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(_Float32)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(_Float32x)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(_Float64)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(_Float64x)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128,  _Float128,  _Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(_Float32,  _Float32,  _Float32)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(_Float32x,  _Float32x,  _Float32x)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(_Float64,  _Float64,  _Float64)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(_Float64x,  _Float64x,  _Float64x)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128,  _Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(_Float32,  _Float32)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(_Float32x,  _Float32x)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(_Float64,  _Float64)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(_Float64x,  _Float64x)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128,  _Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(_Float32,  _Float32)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(_Float32x,  _Float32x)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(_Float64,  _Float64)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(_Float64x,  _Float64x)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(const char *)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(const char *)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(const char *)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(const char *)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(const char *)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(const char *)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(const char *)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(_Float32)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(_Float32x)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(_Float64)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(_Float64x)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(_Float32)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(_Float32x)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(_Float64)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(_Float64x)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(_Float32)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(_Float32x)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(_Float64)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(_Float64x)'
+Warning: Could not parse function type '_Float128 (*)(_Float128)'
+Warning: Could not parse function type '_Float32 (*)(_Float32)'
+Warning: Could not parse function type '_Float32x (*)(_Float32x)'
+Warning: Could not parse function type '_Float64 (*)(_Float64)'
+Warning: Could not parse function type '_Float64x (*)(_Float64x)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(_Float32)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(_Float32x)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(_Float64)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(_Float64x)'
+Warning: Could not parse function type '__attribute__((const)) _Complex _Float128 (*)(_Float128,  _Float128,  _Float128,  _Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Complex _Float128 (*)(_Float128,  _Float128,  _Float128,  _Float128)'
+Warning: Failed to find information about possible built-in _Alignas
+Warning: Failed to find information about possible built-in _Alignof
+Warning: Failed to find information about possible built-in _Exit
+Warning: Failed to find information about possible built-in _Float16
+Warning: Failed to find information about possible built-in _Pragma
+Warning: Failed to find information about possible built-in _Static_assert
+Warning: Failed to find information about possible built-in _Unwind_Resume
+Warning: Failed to find information about possible built-in _Unwind_SjLj_Register
+Warning: Failed to find information about possible built-in _Unwind_SjLj_Unregister
+Warning: Failed to find information about possible built-in __GIMPLE
+Warning: Failed to find information about possible built-in __PHI
+Warning: Failed to find information about possible built-in __RTL
+Warning: Failed to find information about possible built-in __VA_OPT__
+Warning: Failed to find information about possible built-in __atomic_add_fetch
+Warning: Failed to find information about possible built-in __atomic_always_lock_free
+Warning: Failed to find information about possible built-in __atomic_and_fetch
+Warning: Failed to find information about possible built-in __atomic_clear
+Warning: Failed to find information about possible built-in __atomic_compare_exchange_n
+Warning: Failed to find information about possible built-in __atomic_exchange_n
+Warning: Failed to find information about possible built-in __atomic_feraiseexcept
+Warning: Failed to find information about possible built-in __atomic_fetch_add
+Warning: Failed to find information about possible built-in __atomic_fetch_and
+Warning: Failed to find information about possible built-in __atomic_fetch_nand
+Warning: Failed to find information about possible built-in __atomic_fetch_or
+Warning: Failed to find information about possible built-in __atomic_fetch_sub
+Warning: Failed to find information about possible built-in __atomic_fetch_xor
+Warning: Failed to find information about possible built-in __atomic_is_lock_free
+Warning: Failed to find information about possible built-in __atomic_load_n
+Warning: Failed to find information about possible built-in __atomic_nand_fetch
+Warning: Failed to find information about possible built-in __atomic_or_fetch
+Warning: Failed to find information about possible built-in __atomic_signal_fence
+Warning: Failed to find information about possible built-in __atomic_store_n
+Warning: Failed to find information about possible built-in __atomic_sub_fetch
+Warning: Failed to find information about possible built-in __atomic_test_and_set
+Warning: Failed to find information about possible built-in __atomic_thread_fence
+Warning: Failed to find information about possible built-in __atomic_xor_fetch
+Warning: Failed to find information about possible built-in __bnd_chk_ptr_bounds
+Warning: Failed to find information about possible built-in __bnd_chk_ptr_lbounds
+Warning: Failed to find information about possible built-in __bnd_chk_ptr_ubounds
+Warning: Failed to find information about possible built-in __bnd_copy_ptr_bounds
+Warning: Failed to find information about possible built-in __bnd_get_ptr_lbound
+Warning: Failed to find information about possible built-in __bnd_get_ptr_ubound
+Warning: Failed to find information about possible built-in __bnd_init_ptr_bounds
+Warning: Failed to find information about possible built-in __bnd_narrow_ptr_bounds
+Warning: Failed to find information about possible built-in __bnd_null_ptr_bounds
+Warning: Failed to find information about possible built-in __bnd_set_ptr_bounds
+Warning: Failed to find information about possible built-in __bnd_store_ptr_bounds
+Warning: Failed to find information about possible built-in __bounds_type
+Warning: Failed to find information about possible built-in __builtin_FILE
+Warning: Failed to find information about possible built-in __builtin_FUNCTION
+Warning: Failed to find information about possible built-in __builtin_LINE
+Warning: Failed to find information about possible built-in __builtin_add_overflow
+Warning: Failed to find information about possible built-in __builtin_add_overflow_p
+Warning: Failed to find information about possible built-in __builtin_aggregate_incoming_address
+Warning: Failed to find information about possible built-in __builtin_apply
+Warning: Failed to find information about possible built-in __builtin_apply_args
+Warning: Failed to find information about possible built-in __builtin_assume_aligned
+Warning: Failed to find information about possible built-in __builtin_bswap16
+Warning: Failed to find information about possible built-in __builtin_bswap32
+Warning: Failed to find information about possible built-in __builtin_bswap64
+Warning: Failed to find information about possible built-in __builtin_call_with_static_chain
+Warning: Failed to find information about possible built-in __builtin_cexpi
+Warning: Failed to find information about possible built-in __builtin_cexpif
+Warning: Failed to find information about possible built-in __builtin_cexpil
+Warning: Failed to find information about possible built-in __builtin_classify_type
+Warning: Failed to find information about possible built-in __builtin_clrsb
+Warning: Failed to find information about possible built-in __builtin_clrsbimax
+Warning: Failed to find information about possible built-in __builtin_clrsbl
+Warning: Failed to find information about possible built-in __builtin_clrsbll
+Warning: Failed to find information about possible built-in __builtin_clz
+Warning: Failed to find information about possible built-in __builtin_clzimax
+Warning: Failed to find information about possible built-in __builtin_clzl
+Warning: Failed to find information about possible built-in __builtin_clzll
+Warning: Failed to find information about possible built-in __builtin_constant_p
+Warning: Failed to find information about possible built-in __builtin_cpu_init
+Warning: Failed to find information about possible built-in __builtin_cpu_is
+Warning: Failed to find information about possible built-in __builtin_cpu_supports
+Warning: Failed to find information about possible built-in __builtin_ctz
+Warning: Failed to find information about possible built-in __builtin_ctzimax
+Warning: Failed to find information about possible built-in __builtin_ctzl
+Warning: Failed to find information about possible built-in __builtin_ctzll
+Warning: Failed to find information about possible built-in __builtin_dwarf_cfa
+Warning: Failed to find information about possible built-in __builtin_dwarf_sp_column
+Warning: Failed to find information about possible built-in __builtin_eh_return
+Warning: Failed to find information about possible built-in __builtin_eh_return_data_regno
+Warning: Failed to find information about possible built-in __builtin_expect
+Warning: Failed to find information about possible built-in __builtin_extend_pointer
+Warning: Failed to find information about possible built-in __builtin_extract_return_addr
+Warning: Failed to find information about possible built-in __builtin_fabsd128
+Warning: Failed to find information about possible built-in __builtin_fabsd32
+Warning: Failed to find information about possible built-in __builtin_fabsd64
+Warning: Failed to find information about possible built-in __builtin_fpclassify
+Warning: Failed to find information about possible built-in __builtin_frame_address
+Warning: Failed to find information about possible built-in __builtin_frob_return_addr
+Warning: Failed to find information about possible built-in __builtin_huge_val
+Warning: Failed to find information about possible built-in __builtin_huge_valf
+Warning: Failed to find information about possible built-in __builtin_huge_valf128
+Warning: Failed to find information about possible built-in __builtin_huge_valf32
+Warning: Failed to find information about possible built-in __builtin_huge_valf32x
+Warning: Failed to find information about possible built-in __builtin_huge_valf64
+Warning: Failed to find information about possible built-in __builtin_huge_valf64x
+Warning: Failed to find information about possible built-in __builtin_huge_vall
+Warning: Failed to find information about possible built-in __builtin_huge_valq
+Warning: Failed to find information about possible built-in __builtin_ia32_addcarryx_u32
+Warning: Failed to find information about possible built-in __builtin_ia32_addcarryx_u64
+Warning: Failed to find information about possible built-in __builtin_ia32_addpd
+Warning: Failed to find information about possible built-in __builtin_ia32_addps
+Warning: Failed to find information about possible built-in __builtin_ia32_addsd
+Warning: Failed to find information about possible built-in __builtin_ia32_addss
+Warning: Failed to find information about possible built-in __builtin_ia32_addsubpd
+Warning: Failed to find information about possible built-in __builtin_ia32_addsubps
+Warning: Failed to find information about possible built-in __builtin_ia32_aesdec128
+Warning: Failed to find information about possible built-in __builtin_ia32_aesdeclast128
+Warning: Failed to find information about possible built-in __builtin_ia32_aesenc128
+Warning: Failed to find information about possible built-in __builtin_ia32_aesenclast128
+Warning: Failed to find information about possible built-in __builtin_ia32_aesimc128
+Warning: Failed to find information about possible built-in __builtin_ia32_aeskeygenassist128
+Warning: Failed to find information about possible built-in __builtin_ia32_andnpd
+Warning: Failed to find information about possible built-in __builtin_ia32_andnps
+Warning: Failed to find information about possible built-in __builtin_ia32_andpd
+Warning: Failed to find information about possible built-in __builtin_ia32_andps
+Warning: Failed to find information about possible built-in __builtin_ia32_bsrdi
+Warning: Failed to find information about possible built-in __builtin_ia32_bsrsi
+Warning: Failed to find information about possible built-in __builtin_ia32_clflush
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpeqpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpeqps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpeqsd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpeqss
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpgepd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpgeps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpgtpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpgtps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmplepd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpleps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmplesd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpless
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpltpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpltps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpltsd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpltss
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpneqpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpneqps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpneqsd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpneqss
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpngepd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpngeps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpngtpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpngtps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnlepd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnleps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnlesd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnless
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnltpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnltps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnltsd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnltss
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpordpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpordps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpordsd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpordss
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpunordpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpunordps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpunordsd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpunordss
+Warning: Failed to find information about possible built-in __builtin_ia32_comieq
+Warning: Failed to find information about possible built-in __builtin_ia32_comige
+Warning: Failed to find information about possible built-in __builtin_ia32_comigt
+Warning: Failed to find information about possible built-in __builtin_ia32_comile
+Warning: Failed to find information about possible built-in __builtin_ia32_comilt
+Warning: Failed to find information about possible built-in __builtin_ia32_comineq
+Warning: Failed to find information about possible built-in __builtin_ia32_comisdeq
+Warning: Failed to find information about possible built-in __builtin_ia32_comisdge
+Warning: Failed to find information about possible built-in __builtin_ia32_comisdgt
+Warning: Failed to find information about possible built-in __builtin_ia32_comisdle
+Warning: Failed to find information about possible built-in __builtin_ia32_comisdlt
+Warning: Failed to find information about possible built-in __builtin_ia32_comisdneq
+Warning: Failed to find information about possible built-in __builtin_ia32_copysignpd
+Warning: Failed to find information about possible built-in __builtin_ia32_copysignps
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtdq2pd
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtdq2ps
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtpd2dq
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtpd2pi
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtpd2ps
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtpi2pd
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtpi2ps
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtps2dq
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtps2pd
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtps2pi
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtsd2si
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtsd2si64
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtsd2ss
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtsi2sd
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtsi2ss
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtsi642sd
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtsi642ss
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtss2sd
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtss2si
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtss2si64
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttpd2dq
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttpd2pi
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttps2dq
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttps2pi
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttsd2si
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttsd2si64
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttss2si
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttss2si64
+Warning: Failed to find information about possible built-in __builtin_ia32_divpd
+Warning: Failed to find information about possible built-in __builtin_ia32_divps
+Warning: Failed to find information about possible built-in __builtin_ia32_divsd
+Warning: Failed to find information about possible built-in __builtin_ia32_divss
+Warning: Failed to find information about possible built-in __builtin_ia32_emms
+Warning: Failed to find information about possible built-in __builtin_ia32_fldenv
+Warning: Failed to find information about possible built-in __builtin_ia32_fnclex
+Warning: Failed to find information about possible built-in __builtin_ia32_fnstenv
+Warning: Failed to find information about possible built-in __builtin_ia32_fnstsw
+Warning: Failed to find information about possible built-in __builtin_ia32_fxrstor
+Warning: Failed to find information about possible built-in __builtin_ia32_fxrstor64
+Warning: Failed to find information about possible built-in __builtin_ia32_fxsave
+Warning: Failed to find information about possible built-in __builtin_ia32_fxsave64
+Warning: Failed to find information about possible built-in __builtin_ia32_haddpd
+Warning: Failed to find information about possible built-in __builtin_ia32_haddps
+Warning: Failed to find information about possible built-in __builtin_ia32_hsubpd
+Warning: Failed to find information about possible built-in __builtin_ia32_hsubps
+Warning: Failed to find information about possible built-in __builtin_ia32_lddqu
+Warning: Failed to find information about possible built-in __builtin_ia32_ldmxcsr
+Warning: Failed to find information about possible built-in __builtin_ia32_lfence
+Warning: Failed to find information about possible built-in __builtin_ia32_loaddqu
+Warning: Failed to find information about possible built-in __builtin_ia32_loadhpd
+Warning: Failed to find information about possible built-in __builtin_ia32_loadhps
+Warning: Failed to find information about possible built-in __builtin_ia32_loadlpd
+Warning: Failed to find information about possible built-in __builtin_ia32_loadlps
+Warning: Failed to find information about possible built-in __builtin_ia32_loadupd
+Warning: Failed to find information about possible built-in __builtin_ia32_loadups
+Warning: Failed to find information about possible built-in __builtin_ia32_maskmovdqu
+Warning: Failed to find information about possible built-in __builtin_ia32_maskmovq
+Warning: Failed to find information about possible built-in __builtin_ia32_maxpd
+Warning: Failed to find information about possible built-in __builtin_ia32_maxps
+Warning: Failed to find information about possible built-in __builtin_ia32_maxsd
+Warning: Failed to find information about possible built-in __builtin_ia32_maxss
+Warning: Failed to find information about possible built-in __builtin_ia32_mfence
+Warning: Failed to find information about possible built-in __builtin_ia32_minpd
+Warning: Failed to find information about possible built-in __builtin_ia32_minps
+Warning: Failed to find information about possible built-in __builtin_ia32_minsd
+Warning: Failed to find information about possible built-in __builtin_ia32_minss
+Warning: Failed to find information about possible built-in __builtin_ia32_monitor
+Warning: Failed to find information about possible built-in __builtin_ia32_movhlps
+Warning: Failed to find information about possible built-in __builtin_ia32_movlhps
+Warning: Failed to find information about possible built-in __builtin_ia32_movmskpd
+Warning: Failed to find information about possible built-in __builtin_ia32_movmskps
+Warning: Failed to find information about possible built-in __builtin_ia32_movntdq
+Warning: Failed to find information about possible built-in __builtin_ia32_movnti
+Warning: Failed to find information about possible built-in __builtin_ia32_movnti64
+Warning: Failed to find information about possible built-in __builtin_ia32_movntpd
+Warning: Failed to find information about possible built-in __builtin_ia32_movntps
+Warning: Failed to find information about possible built-in __builtin_ia32_movntq
+Warning: Failed to find information about possible built-in __builtin_ia32_movq128
+Warning: Failed to find information about possible built-in __builtin_ia32_movsd
+Warning: Failed to find information about possible built-in __builtin_ia32_movshdup
+Warning: Failed to find information about possible built-in __builtin_ia32_movsldup
+Warning: Failed to find information about possible built-in __builtin_ia32_movss
+Warning: Failed to find information about possible built-in __builtin_ia32_mulpd
+Warning: Failed to find information about possible built-in __builtin_ia32_mulps
+Warning: Failed to find information about possible built-in __builtin_ia32_mulsd
+Warning: Failed to find information about possible built-in __builtin_ia32_mulss
+Warning: Failed to find information about possible built-in __builtin_ia32_mwait
+Warning: Failed to find information about possible built-in __builtin_ia32_orpd
+Warning: Failed to find information about possible built-in __builtin_ia32_orps
+Warning: Failed to find information about possible built-in __builtin_ia32_pabsb
+Warning: Failed to find information about possible built-in __builtin_ia32_pabsd
+Warning: Failed to find information about possible built-in __builtin_ia32_pabsw
+Warning: Failed to find information about possible built-in __builtin_ia32_packssdw
+Warning: Failed to find information about possible built-in __builtin_ia32_packssdw128
+Warning: Failed to find information about possible built-in __builtin_ia32_packsswb
+Warning: Failed to find information about possible built-in __builtin_ia32_packsswb128
+Warning: Failed to find information about possible built-in __builtin_ia32_packuswb
+Warning: Failed to find information about possible built-in __builtin_ia32_packuswb128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddb
+Warning: Failed to find information about possible built-in __builtin_ia32_paddb128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddd
+Warning: Failed to find information about possible built-in __builtin_ia32_paddd128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddq
+Warning: Failed to find information about possible built-in __builtin_ia32_paddq128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddsb
+Warning: Failed to find information about possible built-in __builtin_ia32_paddsb128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddsw
+Warning: Failed to find information about possible built-in __builtin_ia32_paddsw128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddusb
+Warning: Failed to find information about possible built-in __builtin_ia32_paddusb128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddusw
+Warning: Failed to find information about possible built-in __builtin_ia32_paddusw128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddw
+Warning: Failed to find information about possible built-in __builtin_ia32_paddw128
+Warning: Failed to find information about possible built-in __builtin_ia32_palignr
+Warning: Failed to find information about possible built-in __builtin_ia32_pand
+Warning: Failed to find information about possible built-in __builtin_ia32_pand128
+Warning: Failed to find information about possible built-in __builtin_ia32_pandn
+Warning: Failed to find information about possible built-in __builtin_ia32_pandn128
+Warning: Failed to find information about possible built-in __builtin_ia32_pause
+Warning: Failed to find information about possible built-in __builtin_ia32_pavgb
+Warning: Failed to find information about possible built-in __builtin_ia32_pavgb128
+Warning: Failed to find information about possible built-in __builtin_ia32_pavgw
+Warning: Failed to find information about possible built-in __builtin_ia32_pavgw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pclmulqdq128
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpeqb
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpeqb128
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpeqd
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpeqd128
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpeqw
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpeqw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpgtb
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpgtb128
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpgtd
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpgtd128
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpgtw
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpgtw128
+Warning: Failed to find information about possible built-in __builtin_ia32_phaddd
+Warning: Failed to find information about possible built-in __builtin_ia32_phaddsw
+Warning: Failed to find information about possible built-in __builtin_ia32_phaddw
+Warning: Failed to find information about possible built-in __builtin_ia32_phsubd
+Warning: Failed to find information about possible built-in __builtin_ia32_phsubsw
+Warning: Failed to find information about possible built-in __builtin_ia32_phsubw
+Warning: Failed to find information about possible built-in __builtin_ia32_pmaddubsw
+Warning: Failed to find information about possible built-in __builtin_ia32_pmaddwd
+Warning: Failed to find information about possible built-in __builtin_ia32_pmaddwd128
+Warning: Failed to find information about possible built-in __builtin_ia32_pmaxsw
+Warning: Failed to find information about possible built-in __builtin_ia32_pmaxsw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pmaxub
+Warning: Failed to find information about possible built-in __builtin_ia32_pmaxub128
+Warning: Failed to find information about possible built-in __builtin_ia32_pminsw
+Warning: Failed to find information about possible built-in __builtin_ia32_pminsw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pminub
+Warning: Failed to find information about possible built-in __builtin_ia32_pminub128
+Warning: Failed to find information about possible built-in __builtin_ia32_pmovmskb
+Warning: Failed to find information about possible built-in __builtin_ia32_pmovmskb128
+Warning: Failed to find information about possible built-in __builtin_ia32_pmulhrsw
+Warning: Failed to find information about possible built-in __builtin_ia32_pmulhuw
+Warning: Failed to find information about possible built-in __builtin_ia32_pmulhuw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pmulhw
+Warning: Failed to find information about possible built-in __builtin_ia32_pmulhw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pmullw
+Warning: Failed to find information about possible built-in __builtin_ia32_pmullw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pmuludq
+Warning: Failed to find information about possible built-in __builtin_ia32_pmuludq128
+Warning: Failed to find information about possible built-in __builtin_ia32_por
+Warning: Failed to find information about possible built-in __builtin_ia32_por128
+Warning: Failed to find information about possible built-in __builtin_ia32_psadbw
+Warning: Failed to find information about possible built-in __builtin_ia32_psadbw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pshufb
+Warning: Failed to find information about possible built-in __builtin_ia32_pshufd
+Warning: Failed to find information about possible built-in __builtin_ia32_pshufhw
+Warning: Failed to find information about possible built-in __builtin_ia32_pshuflw
+Warning: Failed to find information about possible built-in __builtin_ia32_pshufw
+Warning: Failed to find information about possible built-in __builtin_ia32_psignb
+Warning: Failed to find information about possible built-in __builtin_ia32_psignd
+Warning: Failed to find information about possible built-in __builtin_ia32_psignw
+Warning: Failed to find information about possible built-in __builtin_ia32_pslld
+Warning: Failed to find information about possible built-in __builtin_ia32_pslld128
+Warning: Failed to find information about possible built-in __builtin_ia32_pslldi
+Warning: Failed to find information about possible built-in __builtin_ia32_pslldi128
+Warning: Failed to find information about possible built-in __builtin_ia32_pslldqi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psllq
+Warning: Failed to find information about possible built-in __builtin_ia32_psllq128
+Warning: Failed to find information about possible built-in __builtin_ia32_psllqi
+Warning: Failed to find information about possible built-in __builtin_ia32_psllqi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psllw
+Warning: Failed to find information about possible built-in __builtin_ia32_psllw128
+Warning: Failed to find information about possible built-in __builtin_ia32_psllwi
+Warning: Failed to find information about possible built-in __builtin_ia32_psllwi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrad
+Warning: Failed to find information about possible built-in __builtin_ia32_psrad128
+Warning: Failed to find information about possible built-in __builtin_ia32_psradi
+Warning: Failed to find information about possible built-in __builtin_ia32_psradi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psraw
+Warning: Failed to find information about possible built-in __builtin_ia32_psraw128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrawi
+Warning: Failed to find information about possible built-in __builtin_ia32_psrawi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrld
+Warning: Failed to find information about possible built-in __builtin_ia32_psrld128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrldi
+Warning: Failed to find information about possible built-in __builtin_ia32_psrldi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrldqi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlq
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlq128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlqi
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlqi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlw
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlw128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlwi
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlwi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubb
+Warning: Failed to find information about possible built-in __builtin_ia32_psubb128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubd
+Warning: Failed to find information about possible built-in __builtin_ia32_psubd128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubq
+Warning: Failed to find information about possible built-in __builtin_ia32_psubq128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubsb
+Warning: Failed to find information about possible built-in __builtin_ia32_psubsb128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubsw
+Warning: Failed to find information about possible built-in __builtin_ia32_psubsw128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubusb
+Warning: Failed to find information about possible built-in __builtin_ia32_psubusb128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubusw
+Warning: Failed to find information about possible built-in __builtin_ia32_psubusw128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubw
+Warning: Failed to find information about possible built-in __builtin_ia32_psubw128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckhbw
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckhbw128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckhdq
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckhdq128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckhqdq128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckhwd
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckhwd128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpcklbw
+Warning: Failed to find information about possible built-in __builtin_ia32_punpcklbw128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckldq
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckldq128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpcklqdq128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpcklwd
+Warning: Failed to find information about possible built-in __builtin_ia32_punpcklwd128
+Warning: Failed to find information about possible built-in __builtin_ia32_pxor
+Warning: Failed to find information about possible built-in __builtin_ia32_pxor128
+Warning: Failed to find information about possible built-in __builtin_ia32_rcpps
+Warning: Failed to find information about possible built-in __builtin_ia32_rcpss
+Warning: Failed to find information about possible built-in __builtin_ia32_rdpmc
+Warning: Failed to find information about possible built-in __builtin_ia32_rdtsc
+Warning: Failed to find information about possible built-in __builtin_ia32_rdtscp
+Warning: Failed to find information about possible built-in __builtin_ia32_readeflags_u64
+Warning: Failed to find information about possible built-in __builtin_ia32_rolhi
+Warning: Failed to find information about possible built-in __builtin_ia32_rolqi
+Warning: Failed to find information about possible built-in __builtin_ia32_rorhi
+Warning: Failed to find information about possible built-in __builtin_ia32_rorqi
+Warning: Failed to find information about possible built-in __builtin_ia32_rsqrtf
+Warning: Failed to find information about possible built-in __builtin_ia32_rsqrtps
+Warning: Failed to find information about possible built-in __builtin_ia32_rsqrtps_nr
+Warning: Failed to find information about possible built-in __builtin_ia32_rsqrtss
+Warning: Failed to find information about possible built-in __builtin_ia32_sbb_u32
+Warning: Failed to find information about possible built-in __builtin_ia32_sbb_u64
+Warning: Failed to find information about possible built-in __builtin_ia32_sfence
+Warning: Failed to find information about possible built-in __builtin_ia32_shufpd
+Warning: Failed to find information about possible built-in __builtin_ia32_shufps
+Warning: Failed to find information about possible built-in __builtin_ia32_sqrtpd
+Warning: Failed to find information about possible built-in __builtin_ia32_sqrtps
+Warning: Failed to find information about possible built-in __builtin_ia32_sqrtps_nr
+Warning: Failed to find information about possible built-in __builtin_ia32_sqrtsd
+Warning: Failed to find information about possible built-in __builtin_ia32_sqrtss
+Warning: Failed to find information about possible built-in __builtin_ia32_stmxcsr
+Warning: Failed to find information about possible built-in __builtin_ia32_storedqu
+Warning: Failed to find information about possible built-in __builtin_ia32_storehps
+Warning: Failed to find information about possible built-in __builtin_ia32_storelps
+Warning: Failed to find information about possible built-in __builtin_ia32_storeupd
+Warning: Failed to find information about possible built-in __builtin_ia32_storeups
+Warning: Failed to find information about possible built-in __builtin_ia32_subpd
+Warning: Failed to find information about possible built-in __builtin_ia32_subps
+Warning: Failed to find information about possible built-in __builtin_ia32_subsd
+Warning: Failed to find information about possible built-in __builtin_ia32_subss
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomieq
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomige
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomigt
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomile
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomilt
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomineq
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomisdeq
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomisdge
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomisdgt
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomisdle
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomisdlt
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomisdneq
+Warning: Failed to find information about possible built-in __builtin_ia32_unpckhpd
+Warning: Failed to find information about possible built-in __builtin_ia32_unpckhps
+Warning: Failed to find information about possible built-in __builtin_ia32_unpcklpd
+Warning: Failed to find information about possible built-in __builtin_ia32_unpcklps
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v16qi
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v2df
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v2di
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v2si
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v4hi
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v4sf
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v4si
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v8hi
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_init_v2si
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_init_v4hi
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_init_v8qi
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_pack_sfix
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_set_v4hi
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_set_v8hi
+Warning: Failed to find information about possible built-in __builtin_ia32_vgf2p8affineinvqb_v16qi
+Warning: Failed to find information about possible built-in __builtin_ia32_vgf2p8affineqb_v16qi
+Warning: Failed to find information about possible built-in __builtin_ia32_vgf2p8mulb_v16qi
+Warning: Failed to find information about possible built-in __builtin_ia32_wbinvd
+Warning: Failed to find information about possible built-in __builtin_ia32_writeeflags_u64
+Warning: Failed to find information about possible built-in __builtin_ia32_xorpd
+Warning: Failed to find information about possible built-in __builtin_ia32_xorps
+Warning: Failed to find information about possible built-in __builtin_iceil
+Warning: Failed to find information about possible built-in __builtin_iceilf
+Warning: Failed to find information about possible built-in __builtin_iceill
+Warning: Failed to find information about possible built-in __builtin_ifloor
+Warning: Failed to find information about possible built-in __builtin_ifloorf
+Warning: Failed to find information about possible built-in __builtin_ifloorl
+Warning: Failed to find information about possible built-in __builtin_inf
+Warning: Failed to find information about possible built-in __builtin_infd128
+Warning: Failed to find information about possible built-in __builtin_infd32
+Warning: Failed to find information about possible built-in __builtin_infd64
+Warning: Failed to find information about possible built-in __builtin_inff
+Warning: Failed to find information about possible built-in __builtin_inff128
+Warning: Failed to find information about possible built-in __builtin_inff32
+Warning: Failed to find information about possible built-in __builtin_inff32x
+Warning: Failed to find information about possible built-in __builtin_inff64
+Warning: Failed to find information about possible built-in __builtin_inff64x
+Warning: Failed to find information about possible built-in __builtin_infl
+Warning: Failed to find information about possible built-in __builtin_infq
+Warning: Failed to find information about possible built-in __builtin_init_dwarf_reg_size_table
+Warning: Failed to find information about possible built-in __builtin_irint
+Warning: Failed to find information about possible built-in __builtin_irintf
+Warning: Failed to find information about possible built-in __builtin_irintl
+Warning: Failed to find information about possible built-in __builtin_iround
+Warning: Failed to find information about possible built-in __builtin_iroundf
+Warning: Failed to find information about possible built-in __builtin_iroundl
+Warning: Failed to find information about possible built-in __builtin_isfinite
+Warning: Failed to find information about possible built-in __builtin_isgreater
+Warning: Failed to find information about possible built-in __builtin_isgreaterequal
+Warning: Failed to find information about possible built-in __builtin_isinf_sign
+Warning: Failed to find information about possible built-in __builtin_isless
+Warning: Failed to find information about possible built-in __builtin_islessequal
+Warning: Failed to find information about possible built-in __builtin_islessgreater
+Warning: Failed to find information about possible built-in __builtin_isnormal
+Warning: Failed to find information about possible built-in __builtin_isunordered
+Warning: Failed to find information about possible built-in __builtin_lceil
+Warning: Failed to find information about possible built-in __builtin_lceilf
+Warning: Failed to find information about possible built-in __builtin_lceill
+Warning: Failed to find information about possible built-in __builtin_lfloor
+Warning: Failed to find information about possible built-in __builtin_lfloorf
+Warning: Failed to find information about possible built-in __builtin_lfloorl
+Warning: Failed to find information about possible built-in __builtin_llceil
+Warning: Failed to find information about possible built-in __builtin_llceilf
+Warning: Failed to find information about possible built-in __builtin_llceill
+Warning: Failed to find information about possible built-in __builtin_llfloor
+Warning: Failed to find information about possible built-in __builtin_llfloorf
+Warning: Failed to find information about possible built-in __builtin_llfloorl
+Warning: Failed to find information about possible built-in __builtin_longjmp
+Warning: Failed to find information about possible built-in __builtin_mul_overflow
+Warning: Failed to find information about possible built-in __builtin_mul_overflow_p
+Warning: Failed to find information about possible built-in __builtin_nand128
+Warning: Failed to find information about possible built-in __builtin_nand32
+Warning: Failed to find information about possible built-in __builtin_nand64
+Warning: Failed to find information about possible built-in __builtin_nans
+Warning: Failed to find information about possible built-in __builtin_nansf
+Warning: Failed to find information about possible built-in __builtin_nansf128
+Warning: Failed to find information about possible built-in __builtin_nansf32
+Warning: Failed to find information about possible built-in __builtin_nansf32x
+Warning: Failed to find information about possible built-in __builtin_nansf64
+Warning: Failed to find information about possible built-in __builtin_nansf64x
+Warning: Failed to find information about possible built-in __builtin_nansl
+Warning: Failed to find information about possible built-in __builtin_next_arg
+Warning: Failed to find information about possible built-in __builtin_object_size
+Warning: Failed to find information about possible built-in __builtin_parity
+Warning: Failed to find information about possible built-in __builtin_parityimax
+Warning: Failed to find information about possible built-in __builtin_parityl
+Warning: Failed to find information about possible built-in __builtin_parityll
+Warning: Failed to find information about possible built-in __builtin_popcount
+Warning: Failed to find information about possible built-in __builtin_popcountimax
+Warning: Failed to find information about possible built-in __builtin_popcountl
+Warning: Failed to find information about possible built-in __builtin_popcountll
+Warning: Failed to find information about possible built-in __builtin_powi
+Warning: Failed to find information about possible built-in __builtin_powif
+Warning: Failed to find information about possible built-in __builtin_powil
+Warning: Failed to find information about possible built-in __builtin_prefetch
+Warning: Failed to find information about possible built-in __builtin_return
+Warning: Failed to find information about possible built-in __builtin_return_address
+Warning: Failed to find information about possible built-in __builtin_sadd_overflow
+Warning: Failed to find information about possible built-in __builtin_saddl_overflow
+Warning: Failed to find information about possible built-in __builtin_saddll_overflow
+Warning: Failed to find information about possible built-in __builtin_saveregs
+Warning: Failed to find information about possible built-in __builtin_setjmp
+Warning: Failed to find information about possible built-in __builtin_smul_overflow
+Warning: Failed to find information about possible built-in __builtin_smull_overflow
+Warning: Failed to find information about possible built-in __builtin_smulll_overflow
+Warning: Failed to find information about possible built-in __builtin_ssub_overflow
+Warning: Failed to find information about possible built-in __builtin_ssubl_overflow
+Warning: Failed to find information about possible built-in __builtin_ssubll_overflow
+Warning: Failed to find information about possible built-in __builtin_sub_overflow
+Warning: Failed to find information about possible built-in __builtin_sub_overflow_p
+Warning: Failed to find information about possible built-in __builtin_sysv_va_copy
+Warning: Failed to find information about possible built-in __builtin_sysv_va_end
+Warning: Failed to find information about possible built-in __builtin_sysv_va_start
+Warning: Failed to find information about possible built-in __builtin_tgmath
+Warning: Failed to find information about possible built-in __builtin_trap
+Warning: Failed to find information about possible built-in __builtin_uadd_overflow
+Warning: Failed to find information about possible built-in __builtin_uaddl_overflow
+Warning: Failed to find information about possible built-in __builtin_uaddll_overflow
+Warning: Failed to find information about possible built-in __builtin_umul_overflow
+Warning: Failed to find information about possible built-in __builtin_umull_overflow
+Warning: Failed to find information about possible built-in __builtin_umulll_overflow
+Warning: Failed to find information about possible built-in __builtin_unreachable
+Warning: Failed to find information about possible built-in __builtin_unwind_init
+Warning: Failed to find information about possible built-in __builtin_update_setjmp_buf
+Warning: Failed to find information about possible built-in __builtin_usub_overflow
+Warning: Failed to find information about possible built-in __builtin_usubl_overflow
+Warning: Failed to find information about possible built-in __builtin_usubll_overflow
+Warning: Failed to find information about possible built-in __builtin_va_arg_pack
+Warning: Failed to find information about possible built-in __builtin_va_arg_pack_len
+Warning: Failed to find information about possible built-in __clear_cache
+Warning: Failed to find information about possible built-in __cyg_profile_func_enter
+Warning: Failed to find information about possible built-in __cyg_profile_func_exit
+Warning: Failed to find information about possible built-in __divmodti4
+Warning: Failed to find information about possible built-in __emutls_get_address
+Warning: Failed to find information about possible built-in __emutls_register_common
+Warning: Failed to find information about possible built-in __fprintf_chk
+Warning: Failed to find information about possible built-in __has_attribute
+Warning: Failed to find information about possible built-in __has_cpp_attribute
+Warning: Failed to find information about possible built-in __memcpy_chk
+Warning: Failed to find information about possible built-in __memmove_chk
+Warning: Failed to find information about possible built-in __mempcpy_chk
+Warning: Failed to find information about possible built-in __memset_chk
+Warning: Failed to find information about possible built-in __printf_chk
+Warning: Failed to find information about possible built-in __seg_fs
+Warning: Failed to find information about possible built-in __seg_gs
+Warning: Failed to find information about possible built-in __snprintf_chk
+Warning: Failed to find information about possible built-in __sprintf_chk
+Warning: Failed to find information about possible built-in __stpcpy_chk
+Warning: Failed to find information about possible built-in __stpncpy_chk
+Warning: Failed to find information about possible built-in __strcat_chk
+Warning: Failed to find information about possible built-in __strcpy_chk
+Warning: Failed to find information about possible built-in __strncat_chk
+Warning: Failed to find information about possible built-in __strncpy_chk
+Warning: Failed to find information about possible built-in __sync_fetch_and_nand
+Warning: Failed to find information about possible built-in __sync_fetch_and_nand_1
+Warning: Failed to find information about possible built-in __sync_fetch_and_nand_16
+Warning: Failed to find information about possible built-in __sync_fetch_and_nand_2
+Warning: Failed to find information about possible built-in __sync_fetch_and_nand_4
+Warning: Failed to find information about possible built-in __sync_fetch_and_nand_8
+Warning: Failed to find information about possible built-in __sync_nand_and_fetch
+Warning: Failed to find information about possible built-in __sync_nand_and_fetch_1
+Warning: Failed to find information about possible built-in __sync_nand_and_fetch_16
+Warning: Failed to find information about possible built-in __sync_nand_and_fetch_2
+Warning: Failed to find information about possible built-in __sync_nand_and_fetch_4
+Warning: Failed to find information about possible built-in __sync_nand_and_fetch_8
+Warning: Failed to find information about possible built-in __sync_synchronize
+Warning: Failed to find information about possible built-in __udivmodti4
+Warning: Failed to find information about possible built-in __vfprintf_chk
+Warning: Failed to find information about possible built-in __vprintf_chk
+Warning: Failed to find information about possible built-in __vsnprintf_chk
+Warning: Failed to find information about possible built-in __vsprintf_chk
+Warning: Failed to find information about possible built-in _chkp_bndcl
+Warning: Failed to find information about possible built-in _chkp_bndcu
+Warning: Failed to find information about possible built-in _chkp_bndldx
+Warning: Failed to find information about possible built-in _chkp_bndmk
+Warning: Failed to find information about possible built-in _chkp_bndret
+Warning: Failed to find information about possible built-in _chkp_bndstx
+Warning: Failed to find information about possible built-in _chkp_extract_lower
+Warning: Failed to find information about possible built-in _chkp_extract_upper
+Warning: Failed to find information about possible built-in _exit
+Warning: Ignored 651 possible built-ins
+Warning: Throwing away all 758 builtins because of 71 bad parses.
+[E 17:47:21 8700] Processed command line: C:\Users\a3sc\github\codeql\codeql-home\cpp\tools\win64/extractor.exe --trapfolder C:\Users\a3sc\github\codeql\databases\bof\trap\cpp --src_archive C:\Users\a3sc\github\codeql\databases\bof\src --mimic_config C:\Users\a3sc\github\codeql\databases\bof\working/compiler_mimic_cache/9f16aa766f6d --executable_filename C:/Users/a3sc/github/codeql/apps/bof/bof -w --error_limit 1000 --disable_system_macros --variadic_macros --gcc --gnu_version 80100 --target win64 -D__DBL_MIN_EXP__=(-1021) -D__FLT32X_MAX_EXP__=1024 -D__UINT_LEAST16_MAX__=0xffff -D__ATOMIC_ACQUIRE=2 -D__FLT128_MAX_10_EXP__=4932 -D__FLT_MIN__=1.17549435082228750796873653722224568e-38F -D__GCC_IEC_559_COMPLEX=2 "-D__UINT_LEAST8_TYPE__=unsigned char" -D__SIZEOF_FLOAT80__=16 -D_WIN32=1 "-D__INTMAX_C(c)=c ## LL" -D__CHAR_BIT__=8 -D__UINT8_MAX__=0xff -D_WIN64=1 -D__WINT_MAX__=0xffff -D__FLT32_MIN_EXP__=(-125) -D__ORDER_LITTLE_ENDIAN__=1234 -D__SIZE_MAX__=0xffffffffffffffffULL -D__WCHAR_MAX__=0xffff -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1=1 -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2=1 -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4=1 -D__DBL_DENORM_MIN__=((double)4.94065645841246544176568792868221372e-324L) -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_8=1 -D__GCC_ATOMIC_CHAR_LOCK_FREE=2 -D__GCC_IEC_559=2 -D__FLT32X_DECIMAL_DIG__=17 -D__FLT_EVAL_METHOD__=0 -D__FLT64_DECIMAL_DIG__=17 -D__GCC_ATOMIC_CHAR32_T_LOCK_FREE=2 -D__x86_64=1 -D__UINT_FAST64_MAX__=0xffffffffffffffffULL -D__SIG_ATOMIC_TYPE__=int -D__DBL_MIN_10_EXP__=(-307) -D__FINITE_MATH_ONLY__=0 -D__FLT32_HAS_DENORM__=1 -D__UINT_FAST8_MAX__=0xff -D__has_include(STR)=__has_include__(STR) -D_stdcall=__attribute__((__stdcall__)) -D__DEC64_MAX_EXP__=385 -D__INT8_C(c)=c -D__INT_LEAST8_WIDTH__=8 -D__UINT_LEAST64_MAX__=0xffffffffffffffffULL -D__SHRT_MAX__=0x7fff -D__LDBL_MAX__=1.18973149535723176502126385303097021e+4932L -D__FLT64X_MAX_10_EXP__=4932 -D__UINT_LEAST8_MAX__=0xff -D__GCC_ATOMIC_BOOL_LOCK_FREE=2 -D__FLT128_DENORM_MIN__=6.47517511943802511092443895822764655e-4966F128 "-D__UINTMAX_TYPE__=long long unsigned int" -D__DEC32_EPSILON__=1E-6DF -D__FLT_EVAL_METHOD_TS_18661_3__=0 -D__UINT32_MAX__=0xffffffffU -D__LDBL_MAX_EXP__=16384 -D__FLT128_MIN_EXP__=(-16381) -D__WINT_MIN__=0 -D__FLT128_MIN_10_EXP__=(-4931) -D__INT_LEAST16_WIDTH__=16 -D__SCHAR_MAX__=0x7f -D__FLT128_MANT_DIG__=113 -D__WCHAR_MIN__=0 "-D__INT64_C(c)=c ## LL" -D__DBL_DIG__=15 -D__GCC_ATOMIC_POINTER_LOCK_FREE=2 -D__FLT64X_MANT_DIG__=64 -D__SIZEOF_INT__=4 -D__SIZEOF_POINTER__=8 -D__USER_LABEL_PREFIX__= -D__FLT64X_EPSILON__=1.08420217248550443400745280086994171e-19F64x -D__WIN32=1 -D__LDBL_HAS_INFINITY__=1 -D__WIN64=1 -D__FLT32_DIG__=6 -D__FLT_EPSILON__=1.19209289550781250000000000000000000e-7F -D__SHRT_WIDTH__=16 -D__LDBL_MIN__=3.36210314311209350626267781732175260e-4932L -D__STDC_UTF_16__=1 -D__DEC32_MAX__=9.999999E96DF -D__FLT64X_DENORM_MIN__=3.64519953188247460252840593361941982e-4951F64x -D__MINGW32__=1 -D__FLT32X_HAS_INFINITY__=1 -D__INT32_MAX__=0x7fffffff -D__INT_WIDTH__=32 -D__SIZEOF_LONG__=4 -D__UINT16_C(c)=c -D__PTRDIFF_WIDTH__=64 -D__DECIMAL_DIG__=21 -D__FLT64_EPSILON__=2.22044604925031308084726333618164062e-16F64 -D__INTMAX_WIDTH__=64 -D__has_include_next(STR)=__has_include_next__(STR) -D__FLT64X_MIN_10_EXP__=(-4931) -D__LDBL_HAS_QUIET_NAN__=1 -D__FLT64_MANT_DIG__=53 -D_REENTRANT=1 -D_cdecl=__attribute__((__cdecl__)) -D__MMX__=1 -D__FLT_HAS_DENORM__=1 -D__SIZEOF_LONG_DOUBLE__=16 -D__BIGGEST_ALIGNMENT__=16 -D__FLT64_MAX_10_EXP__=308 -D__DBL_MAX__=((double)1.79769313486231570814527423731704357e+308L) -D_thiscall=__attribute__((__thiscall__)) -D__INT_FAST32_MAX__=0x7fffffff -D__WINNT=1 -D__DBL_HAS_INFINITY__=1 -D__WINNT__=1 -D__DEC32_MIN_EXP__=(-94) -D__INTPTR_WIDTH__=64 -D__FLT32X_HAS_DENORM__=1 "-D__INT_FAST16_TYPE__=short int" -D_fastcall=__attribute__((__fastcall__)) -D__LDBL_HAS_DENORM__=1 -D__FLT128_HAS_INFINITY__=1 -D__DEC128_MAX__=9.999999999999999999999999999999999E6144DL -D__INT_LEAST32_MAX__=0x7fffffff -D__DEC32_MIN__=1E-95DF -D__DBL_MAX_EXP__=1024 -D__WCHAR_WIDTH__=16 -D__FLT32_MAX__=3.40282346638528859811704183484516925e+38F32 -D__DEC128_EPSILON__=1E-33DL -D__SSE2_MATH__=1 -D__ATOMIC_HLE_RELEASE=131072 -D__WIN32__=1 -D__PTRDIFF_MAX__=0x7fffffffffffffffLL -D__amd64=1 -D__tune_core2__=1 -D__ATOMIC_HLE_ACQUIRE=65536 -D__FLT32_HAS_QUIET_NAN__=1 -D__LONG_LONG_MAX__=0x7fffffffffffffffLL -D__SIZEOF_SIZE_T__=8 -D__FLT64X_MIN_EXP__=(-16381) -D__SIZEOF_WINT_T__=2 -D__LONG_LONG_WIDTH__=64 -D__FLT32_MAX_EXP__=128 -D__GXX_ABI_VERSION=1012 -D__FLT_MIN_EXP__=(-125) -D__FLT64X_HAS_QUIET_NAN__=1 "-D__INT_FAST64_TYPE__=long long int" -D__FLT64_DENORM_MIN__=4.94065645841246544176568792868221372e-324F64 -D__DBL_MIN__=((double)2.22507385850720138309023271733240406e-308L) -D__FLT32X_EPSILON__=2.22044604925031308084726333618164062e-16F32x -D__DECIMAL_BID_FORMAT__=1 -D__FLT64_MIN_EXP__=(-1021) -D__GXX_TYPEINFO_EQUALITY_INLINE=0 -D__FLT64_MIN_10_EXP__=(-307) -D__FLT64X_DECIMAL_DIG__=21 -D__DEC128_MIN__=1E-6143DL -D__REGISTER_PREFIX__= -D__UINT16_MAX__=0xffff -D__DBL_HAS_DENORM__=1 -D__cdecl=__attribute__((__cdecl__)) -D__FLT32_MIN__=1.17549435082228750796873653722224568e-38F32 "-D__UINT8_TYPE__=unsigned char" -D__NO_INLINE__=1 -D__FLT_MANT_DIG__=24 -D__LDBL_DECIMAL_DIG__=21 "-D__UINT64_C(c)=c ## ULL" -D__GCC_ATOMIC_INT_LOCK_FREE=2 -D__FLT128_MAX_EXP__=16384 -D__FLT32_MANT_DIG__=24 -D__FLOAT_WORD_ORDER__=__ORDER_LITTLE_ENDIAN__ -D__FLT128_HAS_DENORM__=1 -D__FLT128_DIG__=33 -D__SCHAR_WIDTH__=8 -D__INT32_C(c)=c -D__DEC64_EPSILON__=1E-15DD -D__ORDER_PDP_ENDIAN__=3412 -D__DEC128_MIN_EXP__=(-6142) -D__FLT32_MAX_10_EXP__=38 -D__INT_FAST32_TYPE__=int "-D__UINT_LEAST16_TYPE__=short unsigned int" -D__FLT64X_HAS_INFINITY__=1 -D__INT16_MAX__=0x7fff "-D__SIZE_TYPE__=long long unsigned int" -D__UINT64_MAX__=0xffffffffffffffffULL -D__FLT64X_DIG__=18 "-D__INT8_TYPE__=signed char" -D__GCC_ASM_FLAG_OUTPUTS__=1 -D__FLT_RADIX__=2 "-D__INT_LEAST16_TYPE__=short int" -D__LDBL_EPSILON__=1.08420217248550443400745280086994171e-19L "-D__UINTMAX_C(c)=c ## ULL" -D__SSE_MATH__=1 -D__SEH__=1 -D__SIG_ATOMIC_MAX__=0x7fffffff -D__GCC_ATOMIC_WCHAR_T_LOCK_FREE=2 -D__SIZEOF_PTRDIFF_T__=8 -D__FLT32X_MANT_DIG__=53 -D__x86_64__=1 -D__FLT32X_MIN_EXP__=(-1021) -D__DEC32_SUBNORMAL_MIN__=0.000001E-95DF -D__MSVCRT__=1 -D__INT_FAST16_MAX__=0x7fff -D__FLT64_DIG__=15 -D__UINT_FAST32_MAX__=0xffffffffU "-D__UINT_LEAST64_TYPE__=long long unsigned int" -D__FLT_HAS_QUIET_NAN__=1 -D__FLT_MAX_10_EXP__=38 -D__LONG_MAX__=0x7fffffffL -D__FLT64X_HAS_DENORM__=1 -D__DEC128_SUBNORMAL_MIN__=0.000000000000000000000000000000001E-6143DL -D__FLT_HAS_INFINITY__=1 "-D__UINT_FAST16_TYPE__=short unsigned int" -D__DEC64_MAX__=9.999999999999999E384DD -D__INT_FAST32_WIDTH__=32 -D__PRAGMA_REDEFINE_EXTNAME=1 -D__SIZE_WIDTH__=64 -D__SEG_FS=1 -D__INT_LEAST16_MAX__=0x7fff -D__DEC64_MANT_DIG__=16 -D__INT64_MAX__=0x7fffffffffffffffLL -D__UINT_LEAST32_MAX__=0xffffffffU -D__SEG_GS=1 -D__FLT32_DENORM_MIN__=1.40129846432481707092372958328991613e-45F32 -D__GCC_ATOMIC_LONG_LOCK_FREE=2 -D__SIG_ATOMIC_WIDTH__=32 "-D__INT_LEAST64_TYPE__=long long int" "-D__INT16_TYPE__=short int" "-D__INT_LEAST8_TYPE__=signed char" -D__DEC32_MAX_EXP__=97 -D__INT_FAST8_MAX__=0x7f -D__FLT128_MAX__=1.18973149535723176508575932662800702e+4932F128 -D__INTPTR_MAX__=0x7fffffffffffffffLL -D__GXX_MERGED_TYPEINFO_NAMES=0 -D__FLT64_HAS_QUIET_NAN__=1 -D__stdcall=__attribute__((__stdcall__)) -D__FLT32_MIN_10_EXP__=(-37) -D__SSE2__=1 -D__FLT32X_DIG__=15 -D__LDBL_MANT_DIG__=64 -D__DBL_HAS_QUIET_NAN__=1 -D__FLT64_HAS_INFINITY__=1 -D__FLT64X_MAX__=1.18973149535723176502126385303097021e+4932F64x "-D__SIG_ATOMIC_MIN__=(-__SIG_ATOMIC_MAX__ - 1)" "-D__INTPTR_TYPE__=long long int" "-D__UINT16_TYPE__=short unsigned int" "-D__WCHAR_TYPE__=short unsigned int" -D__SIZEOF_FLOAT__=4 -D__pic__=1 -D__UINTPTR_MAX__=0xffffffffffffffffULL -D__INT_FAST64_WIDTH__=64 -D__DEC64_MIN_EXP__=(-382) -D__FLT32_DECIMAL_DIG__=9 -D__INT_FAST64_MAX__=0x7fffffffffffffffLL -D__GCC_ATOMIC_TEST_AND_SET_TRUEVAL=1 -D__FLT_DIG__=6 -D__FLT32_HAS_INFINITY__=1 -D__FLT64X_MAX_EXP__=16384 "-D__UINT_FAST64_TYPE__=long long unsigned int" -D__INT_MAX__=0x7fffffff -D__amd64__=1 -DWIN32=1 -D__nocona=1 -D__code_model_medium__=1 "-D__INT64_TYPE__=long long int" -D__FLT_MAX_EXP__=128 -DWIN64=1 -D__ORDER_BIG_ENDIAN__=4321 -D__DBL_MANT_DIG__=53 -D__SIZEOF_FLOAT128__=16 -D__INT_LEAST64_MAX__=0x7fffffffffffffffLL -D__GCC_ATOMIC_CHAR16_T_LOCK_FREE=2 -D__DEC64_MIN__=1E-383DD "-D__WINT_TYPE__=short unsigned int" "-D__UINT_LEAST32_TYPE__=unsigned int" -D__SIZEOF_SHORT__=2 -D__SSE__=1 -D__LDBL_MIN_EXP__=(-16381) -D__FLT64_MAX__=1.79769313486231570814527423731704357e+308F64 -D__WINT_WIDTH__=16 -D__INT_LEAST8_MAX__=0x7f -D__FLT32X_MAX_10_EXP__=308 -D__SIZEOF_INT128__=16 -D__LDBL_MAX_10_EXP__=4932 -D__ATOMIC_RELAXED=0 -D__DBL_EPSILON__=((double)2.22044604925031308084726333618164062e-16L) -D__thiscall=__attribute__((__thiscall__)) -D__FLT128_MIN__=3.36210314311209350626267781732175260e-4932F128 -D__UINT8_C(c)=c -D__FLT64_MAX_EXP__=1024 -D__INT_LEAST32_TYPE__=int -D__SIZEOF_WCHAR_T__=2 "-D__UINT64_TYPE__=long long unsigned int" -D__FLT128_HAS_QUIET_NAN__=1 "-D__INT_FAST8_TYPE__=signed char" -D__fastcall=__attribute__((__fastcall__)) -D__FLT64X_MIN__=3.36210314311209350626267781732175260e-4932F64x -D__FLT64_HAS_DENORM__=1 -D__FLT32_EPSILON__=1.19209289550781250000000000000000000e-7F32 -D__DBL_DECIMAL_DIG__=17 -D__STDC_UTF_32__=1 -D__INT_FAST8_WIDTH__=8 -D__FXSR__=1 -D__DEC_EVAL_METHOD__=2 -D__FLT32X_MAX__=1.79769313486231570814527423731704357e+308F32x -D__MINGW64__=1 "-D__UINT32_C(c)=c ## U" -D__INTMAX_MAX__=0x7fffffffffffffffLL -D__BYTE_ORDER__=__ORDER_LITTLE_ENDIAN__ -DWINNT=1 -D__FLT_DENORM_MIN__=1.40129846432481707092372958328991613e-45F -D__INT8_MAX__=0x7f -D__LONG_WIDTH__=32 -D__PIC__=1 "-D__UINT_FAST32_TYPE__=unsigned int" -D__FLT_MAX__=3.40282346638528859811704183484516925e+38F -D__INT32_TYPE__=int -D__SIZEOF_DOUBLE__=8 -D__FLT_MIN_10_EXP__=(-37) -D__FLT64_MIN__=2.22507385850720138309023271733240406e-308F64 -D__INT_LEAST32_WIDTH__=32 "-D__INTMAX_TYPE__=long long int" -D_INTEGRAL_MAX_BITS=64 -D__DEC128_MAX_EXP__=6145 -D__FLT32X_HAS_QUIET_NAN__=1 -D__ATOMIC_CONSUME=1 -D__nocona__=1 -D__INT_FAST16_WIDTH__=16 -D__UINTMAX_MAX__=0xffffffffffffffffULL -D__DEC32_MANT_DIG__=7 -D__FLT32X_DENORM_MIN__=4.94065645841246544176568792868221372e-324F32x -D__DBL_MAX_10_EXP__=308 -D__LDBL_DENORM_MIN__=3.64519953188247460252840593361941982e-4951L -D__INT16_C(c)=c "-D__PTRDIFF_TYPE__=long long int" -D__ATOMIC_SEQ_CST=5 -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_16=1 "-D__UINT32_TYPE__=unsigned int" -D__FLT32X_MIN_10_EXP__=(-307) "-D__UINTPTR_TYPE__=long long unsigned int" -D__DEC64_SUBNORMAL_MIN__=0.000000000000001E-383DD -D__DEC128_MANT_DIG__=34 -D__LDBL_MIN_10_EXP__=(-4931) -D__FLT128_EPSILON__=1.92592994438723585305597794258492732e-34F128 -D__SIZEOF_LONG_LONG__=8 -D__FLT128_DECIMAL_DIG__=36 -D__GCC_ATOMIC_LLONG_LOCK_FREE=2 -D__FLT32X_MIN__=2.22507385850720138309023271733240406e-308F32x -D__LDBL_DIG__=18 -D__FLT_DECIMAL_DIG__=9 -D__UINT_FAST16_MAX__=0xffff -D__GCC_ATOMIC_SHORT_LOCK_FREE=2 -D__INT_LEAST64_WIDTH__=64 -D__SSE3__=1 "-D__UINT_FAST8_TYPE__=unsigned char" -D__WIN64__=1 -D__ATOMIC_ACQ_REL=4 -D__ATOMIC_RELEASE=3 -D__declspec(x)=__attribute__((x)) "-IC:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include" "-IC:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed" "-IC:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include" -- bof.c
+[E 17:47:21 8700] Starting compilation TRAP C:\Users\a3sc\github\codeql\databases\bof\trap\cpp/compilations/56/29786642_0.trap.br
+[E 17:47:21 8700] Creating trap tarball C:\Users\a3sc\github\codeql\databases\bof\trap\cpp/tarballs/C_/Users/a3sc/github/codeql/apps/bof/bof.c.2bb6b8ad_0.trap.tar.br
+[E 17:47:21 8700] Emitting trap files for bof.c
+[E 17:47:21 8700] Opening existencedb in \\?\C:\Users\a3sc\github\codeql\databases\bof\working\existencedb\db
+[E 17:47:21 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h
+[E 17:47:21 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h
+[E 17:47:21 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h
+[E 17:47:21 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h
+[E 17:47:21 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/_mingw.h
+[E 17:47:21 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/vadefs.h
+[E 17:47:21 8700] Already archived C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/_mingw.h
+[E 17:47:21 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/crtdefs.h
+[E 17:47:21 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/_mingw_print_push.h
+[E 17:47:21 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h
+[E 17:47:21 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/swprintf.inl
+[E 17:47:21 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdio.h
+[E 17:47:21 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h
+[E 17:47:21 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/_mingw_print_pop.h
+[E 17:47:21 8700] Already archived C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdio.h
+[E 17:47:21 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/limits.h
+[E 17:47:21 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h
+[E 17:47:21 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h
+[E 17:47:21 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdlib.h
+[E 17:47:22 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h
+[E 17:47:22 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/malloc.h
+[E 17:47:22 8700] Already archived C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdlib.h
+[E 17:47:22 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/string.h
+[E 17:47:22 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h
+[E 17:47:22 8700] Already archived C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/string.h
+[E 17:47:22 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/io.h
+[E 17:47:22 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h
+[E 17:47:22 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sys/types.h
+[E 17:47:22 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/process.h
+[E 17:47:22 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/getopt.h
+[E 17:47:22 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h
+[E 17:47:22 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/unistd.h
+[E 17:47:22 8700] Archiving C:\Users\a3sc\github\codeql\databases\bof\src/C_/Users/a3sc/github/codeql/apps/bof/bof.c
+[E 17:47:22 8700] Wrote 34 files to C:\Users\a3sc\github\codeql\databases\bof\trap\cpp/tarballs/C_/Users/a3sc/github/codeql/apps/bof/bof.c.2bb6b8ad_0.trap.tar.br
+[E 17:47:22 8700] Finished compilation TRAP C:\Users\a3sc\github\codeql\databases\bof\trap\cpp/compilations/56/29786642_0.trap.br

@@ -1,0 +1,26 @@
+[2020-12-10 22:04:24] This is codeql database bundle .\databases\bof --output=bof.zip
+[2020-12-10 22:04:24] Log file was started late.
+[2020-12-10 22:04:24] Running plumbing command: codeql database cleanup --mode=normal -- C:\Users\a3sc\github\codeql\databases\bof
+[2020-12-10 22:04:24] [PROGRESS] database cleanup> Cleaning up existing TRAP files after import...
+[2020-12-10 22:04:24] [PROGRESS] database cleanup> TRAP files cleaned up (8ms).
+[2020-12-10 22:04:24] [PROGRESS] database cleanup> Cleaning up scratch directory...
+[2020-12-10 22:04:24] [PROGRESS] database cleanup> Scratch directory cleaned up (0ms).
+[2020-12-10 22:04:24] Running plumbing command: codeql dataset cleanup --mode=normal -- C:\Users\a3sc\github\codeql\databases\bof\db-cpp
+[2020-12-10 22:04:24] [PROGRESS] dataset cleanup> Cleaning up dataset in C:\Users\a3sc\github\codeql\databases\bof\db-cpp.
+[2020-12-10 22:04:24] Trimming disk cache at C:\Users\a3sc\github\codeql\databases\bof\db-cpp\default\cache in mode normal.
+[2020-12-10 22:04:24] Sequence stamp origin is -6649273097916757318
+[2020-12-10 22:04:24] Stopped the world to zealously trim disk at sequence stamp o+0
+[2020-12-10 22:04:27] Starting the world again
+[2020-12-10 22:04:27] Trimming completed (2.8s): Trimmed disposable data from cache.
+[2020-12-10 22:04:27] Stopped the world to close the cache at sequence stamp o+1
+[2020-12-10 22:04:27] The disk cache is freshly trimmed; leave it be.
+[2020-12-10 22:04:27] Starting the world again
+[2020-12-10 22:04:27] [PROGRESS] dataset cleanup> Trimmed disposable data from cache.
+[2020-12-10 22:04:27] Plumbing command codeql dataset cleanup completed.
+[2020-12-10 22:04:27] Plumbing command codeql database cleanup completed with status 0.
+[2020-12-10 22:04:27] [PROGRESS] database bundle> Creating bundle metadata for C:\Users\a3sc\github\codeql\databases\bof...
+[2020-12-10 22:04:28] [PROGRESS] database bundle> Creating zip file at C:\Users\a3sc\github\codeql\bof.zip.
+[2020-12-10 22:04:28] [DETAILS] database bundle> Adding metadata.
+[2020-12-10 22:04:28] [DETAILS] database bundle> Adding C:\Users\a3sc\github\codeql\databases\bof\src.zip.
+[2020-12-10 22:04:28] [DETAILS] database bundle> Adding C:\Users\a3sc\github\codeql\databases\bof\db-cpp.
+[2020-12-10 22:04:30] Terminating normally.

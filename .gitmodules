@@ -1,0 +1,3 @@
+[submodule "codeql-custom"]
+	path = codeql-custom
+	url = https://github.com/github/vscode-codeql-starter

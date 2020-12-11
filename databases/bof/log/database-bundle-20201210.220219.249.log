@@ -1,0 +1,46 @@
+[2020-12-10 22:02:19] This is codeql database bundle .\databases\bof --output=bof.zip
+[2020-12-10 22:02:19] Log file was started late.
+[2020-12-10 22:02:19] Running plumbing command: codeql database cleanup --mode=normal -- C:\Users\a3sc\github\codeql\databases\bof
+[2020-12-10 22:02:19] [PROGRESS] database cleanup> Cleaning up existing TRAP files after import...
+[2020-12-10 22:02:19] [PROGRESS] database cleanup> TRAP files cleaned up (0ms).
+[2020-12-10 22:02:19] [PROGRESS] database cleanup> Cleaning up scratch directory...
+[2020-12-10 22:02:19] [PROGRESS] database cleanup> Scratch directory cleaned up (0ms).
+[2020-12-10 22:02:19] Running plumbing command: codeql dataset cleanup --mode=normal -- C:\Users\a3sc\github\codeql\databases\bof\db-cpp
+[2020-12-10 22:02:19] [PROGRESS] dataset cleanup> Cleaning up dataset in C:\Users\a3sc\github\codeql\databases\bof\db-cpp.
+[2020-12-10 22:02:19] Exception caught at top level: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\Users\a3sc\github\codeql\databases\bof\db-cpp\default\cache\.lock
+                      (eventual cause: OverlappingFileLockException)
+                      com.semmle.inmemory.caching.RelationCacheImpl.takeFilesystemLock(RelationCacheImpl.java:351)
+                      com.semmle.inmemory.caching.RelationCacheImpl.create(RelationCacheImpl.java:110)
+                      com.semmle.inmemory.caching.RelationManager.trimDiskCache(RelationManager.java:220)
+                      com.semmle.inmemory.MemoryBackend.trimDiskCache(MemoryBackend.java:534)
+                      com.semmle.cli2.ql.dataset.CleanupDatasetCommand.executeSubcommand(CleanupDatasetCommand.java:44)
+                      com.semmle.cli2.picocli.PlumbingRunner.run(PlumbingRunner.java:110)
+                      com.semmle.cli2.picocli.SubcommandCommon.execPlumbingInProcess(SubcommandCommon.java:182)
+                      com.semmle.cli2.database.CleanupDatabaseCommand.executeSubcommand(CleanupDatabaseCommand.java:77)
+                      com.semmle.cli2.picocli.PlumbingRunner.run(PlumbingRunner.java:110)
+                      com.semmle.cli2.picocli.SubcommandCommon.runPlumbingInProcess(SubcommandCommon.java:159)
+                      com.semmle.cli2.database.BundleCommand.executeSubcommand(BundleCommand.java:80)
+                      com.semmle.cli2.picocli.SubcommandCommon.call(SubcommandCommon.java:430)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:201)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:209)
+                      com.semmle.cli2.CodeQL.main(CodeQL.java:91)
+                      
+                       ... caused by:
+                      
+                      java.nio.channels.OverlappingFileLockException
+                      com.semmle.util.files.FileSystemLock.<init>(FileSystemLock.java:75)
+                      com.semmle.inmemory.caching.RelationCacheImpl.takeFilesystemLock(RelationCacheImpl.java:347)
+                      com.semmle.inmemory.caching.RelationCacheImpl.create(RelationCacheImpl.java:110)
+                      com.semmle.inmemory.caching.RelationManager.trimDiskCache(RelationManager.java:220)
+                      com.semmle.inmemory.MemoryBackend.trimDiskCache(MemoryBackend.java:534)
+                      com.semmle.cli2.ql.dataset.CleanupDatasetCommand.executeSubcommand(CleanupDatasetCommand.java:44)
+                      com.semmle.cli2.picocli.PlumbingRunner.run(PlumbingRunner.java:110)
+                      com.semmle.cli2.picocli.SubcommandCommon.execPlumbingInProcess(SubcommandCommon.java:182)
+                      com.semmle.cli2.database.CleanupDatabaseCommand.executeSubcommand(CleanupDatabaseCommand.java:77)
+                      com.semmle.cli2.picocli.PlumbingRunner.run(PlumbingRunner.java:110)
+                      com.semmle.cli2.picocli.SubcommandCommon.runPlumbingInProcess(SubcommandCommon.java:159)
+                      com.semmle.cli2.database.BundleCommand.executeSubcommand(BundleCommand.java:80)
+                      com.semmle.cli2.picocli.SubcommandCommon.call(SubcommandCommon.java:430)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:201)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:209)
+                      com.semmle.cli2.CodeQL.main(CodeQL.java:91)
