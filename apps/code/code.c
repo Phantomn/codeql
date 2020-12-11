@@ -5,8 +5,9 @@ int main(int argc, char* argv[]){
     char *dst = malloc(size1);
     char *src = malloc(size2);
 
-    if(strcmp(argv, "change") == 0)
-    size1 = 15;
+    if(strcmp(argv, "change") == 0){
+        size1 = 15;
+    }
 
     memcpy(dst, src, size1);
 }

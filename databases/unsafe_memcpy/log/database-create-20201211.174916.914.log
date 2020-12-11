@@ -1,0 +1,153 @@
+[2020-12-11 17:49:16] This is codeql database create .\databases\unsafe_memcpy --language=cpp --command=gcc -o unsafe_memcpy unsafe_memcpy.c --source-root=./apps/unsafe_memcpy
+[2020-12-11 17:49:16] Log file was started late.
+[2020-12-11 17:49:16] [PROGRESS] database create> Running command [gcc, -o, unsafe_memcpy, unsafe_memcpy.c] in C:\Users\a3sc\github\codeql\apps\unsafe_memcpy.
+[2020-12-11 17:49:16] Running plumbing command: codeql database trace-command --working-dir=C:\Users\a3sc\github\codeql\apps\unsafe_memcpy -- C:\Users\a3sc\github\codeql\databases\unsafe_memcpy gcc -o unsafe_memcpy unsafe_memcpy.c
+[2020-12-11 17:49:16] [PROGRESS] database trace-command> C:\Users\a3sc\github\codeql\databases\unsafe_memcpy: Running in C:\Users\a3sc\github\codeql\apps\unsafe_memcpy: [gcc, -o, unsafe_memcpy, unsafe_memcpy.c]
+[2020-12-11 17:49:17] Setting up tracing from specification at C:\Users\a3sc\github\codeql\codeql-home\cpp\tools\win64\compiler-tracing.spec.
+[2020-12-11 17:49:17] [build-err] unsafe_memcpy.c: In function 'main':
+[2020-12-11 17:49:17] [build-err] unsafe_memcpy.c:6:17: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+[2020-12-11 17:49:17] [build-err]      char *dst = malloc(dst_size);
+[2020-12-11 17:49:17] [build-err]                  ^~~~~~
+[2020-12-11 17:49:17] [build-err] unsafe_memcpy.c:6:17: warning: incompatible implicit declaration of built-in function 'malloc'
+[2020-12-11 17:49:17] [build-err] unsafe_memcpy.c:6:17: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+[2020-12-11 17:49:17] [build-err] unsafe_memcpy.c:1:1:
+[2020-12-11 17:49:17] [build-err] +#include <stdlib.h>
+[2020-12-11 17:49:17] [build-err]  int main(int argc, char **argv)
+[2020-12-11 17:49:17] [build-err] unsafe_memcpy.c:6:17:
+[2020-12-11 17:49:17] [build-err]      char *dst = malloc(dst_size);
+[2020-12-11 17:49:17] [build-err]                  ^~~~~~
+[2020-12-11 17:49:17] [build-err] unsafe_memcpy.c:9:5: warning: implicit declaration of function 'memcpy' [-Wimplicit-function-declaration]
+[2020-12-11 17:49:17] [build-err]      memcpy(dst, src, src_size);
+[2020-12-11 17:49:17] [build-err]      ^~~~~~
+[2020-12-11 17:49:17] [build-err] unsafe_memcpy.c:9:5: warning: incompatible implicit declaration of built-in function 'memcpy'
+[2020-12-11 17:49:17] [build-err] unsafe_memcpy.c:9:5: note: include '<string.h>' or provide a declaration of 'memcpy'
+[2020-12-11 17:49:17] [build-err] unsafe_memcpy.c:1:1:
+[2020-12-11 17:49:17] [build-err] +#include <string.h>
+[2020-12-11 17:49:17] [build-err]  int main(int argc, char **argv)
+[2020-12-11 17:49:17] [build-err] unsafe_memcpy.c:9:5:
+[2020-12-11 17:49:17] [build-err]      memcpy(dst, src, src_size);
+[2020-12-11 17:49:17] [build-err]      ^~~~~~
+[2020-12-11 17:49:19] Plumbing command codeql database trace-command completed.
+[2020-12-11 17:49:19] [PROGRESS] database create> Finalizing database at C:\Users\a3sc\github\codeql\databases\unsafe_memcpy.
+[2020-12-11 17:49:19] Running plumbing command: codeql database finalize --mode=normal -- C:\Users\a3sc\github\codeql\databases\unsafe_memcpy
+[2020-12-11 17:49:20] [PROGRESS] database finalize> Running TRAP import for CodeQL database at C:\Users\a3sc\github\codeql\databases\unsafe_memcpy...
+[2020-12-11 17:49:20] Running plumbing command: codeql dataset import --dbscheme=C:\Users\a3sc\github\codeql\codeql-home\cpp\semmlecode.cpp.dbscheme -- C:\Users\a3sc\github\codeql\databases\unsafe_memcpy\db-cpp C:\Users\a3sc\github\codeql\databases\unsafe_memcpy\trap\cpp
+[2020-12-11 17:49:20] Clearing disk cache since the version file C:\Users\a3sc\github\codeql\databases\unsafe_memcpy\db-cpp\default\cache\version does not exist
+[2020-12-11 17:49:20] Tuple pool not found. Clearing relations with cached strings
+[2020-12-11 17:49:20] Trimming disk cache at C:\Users\a3sc\github\codeql\databases\unsafe_memcpy\db-cpp\default\cache in mode brutal.
+[2020-12-11 17:49:20] Sequence stamp origin is -6648967743978231545
+[2020-12-11 17:49:20] Stopped the world to hard-clear memory at sequence stamp o+0
+[2020-12-11 17:49:20] Starting the world again
+[2020-12-11 17:49:20] Stopped the world to quickly trim disk at sequence stamp o+1
+[2020-12-11 17:49:20] Starting the world again
+[2020-12-11 17:49:20] Stopped the world to zealously trim disk at sequence stamp o+2
+[2020-12-11 17:49:20] Starting the world again
+[2020-12-11 17:49:20] Trimming completed (21ms): Purged everything.
+[2020-12-11 17:49:20] Scanning for files in C:\Users\a3sc\github\codeql\databases\unsafe_memcpy\trap\cpp
+[2020-12-11 17:49:20] Grouping TRAPs by link target
+[2020-12-11 17:49:20] Scanning cpp_predefined.d6444f2f.trap (unsafe_memcpy.c.df9d8708_0.trap.tar.br) (1 of 5)
+[2020-12-11 17:49:20] Scanning unsafe_memcpy.c.df9d8708.trap (unsafe_memcpy.c.df9d8708_0.trap.tar.br) (2 of 5)
+[2020-12-11 17:49:20] Scanning 22629306_0.trap.br (3 of 5)
+[2020-12-11 17:49:20] Scanning unsafe_memcpy.exe.trap.br (4 of 5)
+[2020-12-11 17:49:20] Scanning sourceLocationPrefix.trap.gz (5 of 5)
+[2020-12-11 17:49:20] Assembling unsafe_memcpy.exe.link with 1 files (1 of 2)
+[2020-12-11 17:49:20] Assembling no link target with 4 files (2 of 2)
+[2020-12-11 17:49:21] Importing cpp_predefined.d6444f2f.trap (unsafe_memcpy.c.df9d8708_0.trap.tar.br) for no link target (1 of 5)
+[2020-12-11 17:49:21] Importing unsafe_memcpy.c.df9d8708.trap (unsafe_memcpy.c.df9d8708_0.trap.tar.br) for no link target (2 of 5)
+[2020-12-11 17:49:21] Importing 22629306_0.trap.br for no link target (3 of 5)
+[2020-12-11 17:49:21] Importing unsafe_memcpy.exe.trap.br for unsafe_memcpy.exe.link (4 of 5)
+[2020-12-11 17:49:21] Importing sourceLocationPrefix.trap.gz for no link target (5 of 5)
+[2020-12-11 17:49:21] Merging 1 fragment for builtintypes.
+[2020-12-11 17:49:21] Merging 1 fragment for unspecifiedtype.
+[2020-12-11 17:49:21] Merging 1 fragment for files.
+[2020-12-11 17:49:21] Merging 1 fragment for locations_default.
+[2020-12-11 17:49:21] Merging 1 fragment for link_targets.
+[2020-12-11 17:49:21] Merging 1 fragment for locations_stmt.
+[2020-12-11 17:49:21] Merging 1 fragment for locations_expr.
+[2020-12-11 17:49:21] Merging 1 fragment for usertypes.
+[2020-12-11 17:49:21] Merging 1 fragment for link_parent.
+[2020-12-11 17:49:22] Merging 1 fragment for usertypesize.
+[2020-12-11 17:49:22] Merging 1 fragment for is_pod_class.
+[2020-12-11 17:49:22] Merging 1 fragment for is_standard_layout_class.
+[2020-12-11 17:49:22] Merging 1 fragment for is_complete.
+[2020-12-11 17:49:22] Merging 1 fragment for membervariables.
+[2020-12-11 17:49:22] Merging 1 fragment for fieldoffsets.
+[2020-12-11 17:49:22] Merging 1 fragment for var_decls.
+[2020-12-11 17:49:22] Merging 1 fragment for var_def.
+[2020-12-11 17:49:22] Merging 1 fragment for derivedtypes.
+[2020-12-11 17:49:22] Merging 1 fragment for pointerishsize.
+[2020-12-11 17:49:22] Merging 1 fragment for member.
+[2020-12-11 17:49:22] Merging 1 fragment for namespaces.
+[2020-12-11 17:49:22] Merging 1 fragment for specialnamequalifyingelements.
+[2020-12-11 17:49:22] Merging 1 fragment for mangled_name.
+[2020-12-11 17:49:22] Merging 1 fragment for specifiers.
+[2020-12-11 17:49:22] Merging 1 fragment for fileannotations.
+[2020-12-11 17:49:22] Merging 1 fragment for numlines.
+[2020-12-11 17:49:22] Merging 1 fragment for functions.
+[2020-12-11 17:49:22] Merging 1 fragment for function_return_type.
+[2020-12-11 17:49:22] Merging 1 fragment for params.
+[2020-12-11 17:49:22] Merging 1 fragment for fun_decls.
+[2020-12-11 17:49:22] Merging 1 fragment for fun_def.
+[2020-12-11 17:49:22] Merging 1 fragment for fun_decl_specifiers.
+[2020-12-11 17:49:22] Merging 1 fragment for param_decl_bind.
+[2020-12-11 17:49:22] Merging 1 fragment for stmts.
+[2020-12-11 17:49:22] Merging 1 fragment for localvariables.
+[2020-12-11 17:49:22] Merging 1 fragment for values.
+[2020-12-11 17:49:22] Merging 1 fragment for valuetext.
+[2020-12-11 17:49:22] Merging 1 fragment for exprs.
+[2020-12-11 17:49:22] Merging 1 fragment for expr_types.
+[2020-12-11 17:49:22] Merging 1 fragment for valuebind.
+[2020-12-11 17:49:22] Merging 1 fragment for exprparents.
+[2020-12-11 17:49:22] Merging 1 fragment for stmt_decl_bind.
+[2020-12-11 17:49:22] Merging 1 fragment for stmt_decl_entry_bind.
+[2020-12-11 17:49:22] Merging 1 fragment for routinetypes.
+[2020-12-11 17:49:22] Merging 1 fragment for funbind.
+[2020-12-11 17:49:22] Merging 1 fragment for expr_isload.
+[2020-12-11 17:49:22] Merging 1 fragment for compgenerated.
+[2020-12-11 17:49:22] Merging 1 fragment for stmtparents.
+[2020-12-11 17:49:22] Merging 1 fragment for blockscope.
+[2020-12-11 17:49:22] Merging 1 fragment for function_entry_point.
+[2020-12-11 17:49:22] Merging 1 fragment for fun_implicit.
+[2020-12-11 17:49:22] Merging 1 fragment for containerparent.
+[2020-12-11 17:49:22] Merging 1 fragment for folders.
+[2020-12-11 17:49:22] Merging 1 fragment for funspecifiers.
+[2020-12-11 17:49:22] Merging 1 fragment for varspecifiers.
+[2020-12-11 17:49:22] Merging 1 fragment for initialisers.
+[2020-12-11 17:49:22] Merging 1 fragment for exprconv.
+[2020-12-11 17:49:22] Merging 1 fragment for conversionkinds.
+[2020-12-11 17:49:22] Merging 1 fragment for iscall.
+[2020-12-11 17:49:22] Merging 1 fragment for varbind.
+[2020-12-11 17:49:22] Merging 1 fragment for compilations.
+[2020-12-11 17:49:22] Merging 1 fragment for compilation_args.
+[2020-12-11 17:49:22] Merging 1 fragment for compilation_compiling_files.
+[2020-12-11 17:49:22] Merging 1 fragment for compilation_time.
+[2020-12-11 17:49:22] Merging 1 fragment for compilation_finished.
+[2020-12-11 17:49:22] Merging 1 fragment for sourceLocationPrefix.
+[2020-12-11 17:49:22] Saving string and id pools to disk.
+[2020-12-11 17:49:23] Finished importing trap files.
+[2020-12-11 17:49:23] Stopped the world to close the cache at sequence stamp o+3
+[2020-12-11 17:49:23] The disk cache is freshly trimmed; leave it be.
+[2020-12-11 17:49:23] Starting the world again
+[2020-12-11 17:49:23] Plumbing command codeql dataset import completed.
+[2020-12-11 17:49:23] [PROGRESS] database finalize> TRAP import complete (3s).
+[2020-12-11 17:49:23] Running plumbing command: codeql database cleanup --mode=normal -- C:\Users\a3sc\github\codeql\databases\unsafe_memcpy
+[2020-12-11 17:49:23] [PROGRESS] database cleanup> Cleaning up existing TRAP files after import...
+[2020-12-11 17:49:23] [PROGRESS] database cleanup> TRAP files cleaned up (11ms).
+[2020-12-11 17:49:23] [PROGRESS] database cleanup> Cleaning up scratch directory...
+[2020-12-11 17:49:23] [PROGRESS] database cleanup> Scratch directory cleaned up (5ms).
+[2020-12-11 17:49:23] Running plumbing command: codeql dataset cleanup --mode=normal -- C:\Users\a3sc\github\codeql\databases\unsafe_memcpy\db-cpp
+[2020-12-11 17:49:23] [PROGRESS] dataset cleanup> Cleaning up dataset in C:\Users\a3sc\github\codeql\databases\unsafe_memcpy\db-cpp.
+[2020-12-11 17:49:23] Trimming disk cache at C:\Users\a3sc\github\codeql\databases\unsafe_memcpy\db-cpp\default\cache in mode normal.
+[2020-12-11 17:49:23] Sequence stamp origin is -6648967732682538853
+[2020-12-11 17:49:23] Stopped the world to zealously trim disk at sequence stamp o+0
+[2020-12-11 17:49:23] Starting the world again
+[2020-12-11 17:49:23] Trimming completed (23ms): Trimmed disposable data from cache.
+[2020-12-11 17:49:23] Stopped the world to close the cache at sequence stamp o+1
+[2020-12-11 17:49:23] The disk cache is freshly trimmed; leave it be.
+[2020-12-11 17:49:23] Starting the world again
+[2020-12-11 17:49:23] [PROGRESS] dataset cleanup> Trimmed disposable data from cache.
+[2020-12-11 17:49:23] Plumbing command codeql dataset cleanup completed.
+[2020-12-11 17:49:23] Plumbing command codeql database cleanup completed with status 0.
+[2020-12-11 17:49:23] Plumbing command codeql database finalize completed with status 0.
+[2020-12-11 17:49:23] [PROGRESS] database create> Successfully created database at C:\Users\a3sc\github\codeql\databases\unsafe_memcpy.
+[2020-12-11 17:49:23] Terminating normally.
