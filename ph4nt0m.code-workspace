@@ -1,16 +1,7 @@
 {
-	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"name": "[bof source archive]",
-			"uri": "codeql-zip-archive://1-50/c:\\Users\\a3sc\\github\\codeql\\databases\\bof\\src.zip"
-		},
-		{
-			"name": "[code source archive]",
-			"uri": "codeql-zip-archive://1-51/c:\\Users\\a3sc\\github\\codeql\\databases\\code\\src.zip"
-		}
-	],
-	"settings": {}
+    "folders": [
+        {
+            "path": "."
+        }
+    ]
 }

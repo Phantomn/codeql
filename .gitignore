@@ -1,0 +1,5 @@
+## Ignore ##
+codeql-custom
+codeql-home
+queries-go
+queries
